@@ -1,0 +1,68 @@
+/*--------------------------------------------------------------
+# Pricing
+--------------------------------------------------------------*/
+.pricing-item {
+  text-align: center;
+  background: #fff;
+  padding-bottom: 40px;
+  margin: 15px 0;
+  border-radius: 13px;
+  overflow: hidden;
+  box-shadow: 0px 2px 15px rgba(0, 0, 0, 0.25);
+}
+
+.pricing-item .pi-top {
+  height: 156px;
+  padding-top: 26px;
+}
+
+.pricing-item .pi-top h4 {
+  color: #fff;
+  font-size: 24px;
+  font-weight: 700;
+  text-transform: uppercase;
+}
+
+.pricing-item .pi-price {
+  width: 144px;
+  height: 144px;
+  margin: -71px auto 30px;
+  padding-top: 35px;
+  border-radius: 50%;
+  background: #fff;
+  -webkit-box-shadow: 0px 5px 6px rgba(72, 105, 114, 0.15);
+  box-shadow: 0px 5px 6px rgba(72, 105, 114, 0.15);
+}
+
+.pricing-item .pi-price h3 {
+  font-size: 32px;
+  font-weight: 700;
+  color: #666666;
+}
+
+.pricing-item .pi-price p {
+  text-transform: uppercase;
+  color: #999999;
+}
+
+.pricing-item ul {
+  list-style: none;
+  margin-bottom: 20px;
+  text-align: left;
+}
+
+.pricing-item ul li {
+  font-size: 18px;
+  margin-bottom: 12px;
+}
+
+.pricing-item.begginer .pi-top {
+  background: #009970;
+}
+
+.pricing-item a{
+  background: #009970;
+  color: #fff;
+  font-size: 18px;
+  padding: 12px 25px;
+}
