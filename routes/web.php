@@ -14,5 +14,17 @@ use Illuminate\Support\Facades\Route;
 */
 
 Route::get('/', function () {
-    return view('welcome');
+    return view('medical.home');
 });
+
+Route::get('/medical', function () {
+    return view('medical.home');
+});
+
+Route::get('/medical/dento', function () {
+    return view('medical.dento');
+})->name('medicalDento');
+
+Route::get('/medical/childcare', function () {
+    return view('medical.childcare');
+})->name('medicalChildcare');

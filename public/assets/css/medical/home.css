@@ -1,0 +1,48 @@
+@import url("https://fonts.googleapis.com/css?family=Josefin+Sans:300,300i,400,400i,600,600i,700&display=swap");
+@import url("https://fonts.googleapis.com/css?family=Josefin+Sans:300,300i,400,400i,600,600i,700&display=swap");
+
+/*--------------------------------------------------------------
+# General
+--------------------------------------------------------------*/
+body {
+  font-family: 'Josefin Sans', sans-serif;
+  color: #444444;
+}
+
+/*--------------------------------------------------------------
+# Sections General
+--------------------------------------------------------------*/
+section {
+  padding: 80px 0;
+  overflow: hidden;
+}
+
+.section-bg {
+  background-color: #fff7f2 /*#fff7f2*/;
+}
+
+/*--------------------------------------------------------------
+# Template Box
+--------------------------------------------------------------*/
+.template-box{
+  margin-bottom: 40px;
+}
+
+.template-view a{
+  display: block;
+  border: 5px solid black;
+  padding: 15px;
+  font-weight: 700;
+  font-size: 20px;
+  text-align: center;
+  text-transform: uppercase;
+  margin-top: 5px;
+  background-color: #fff;
+  color: black;
+  transition: all 0.5s ease-in-out;
+}
+
+.template-view a:hover{
+  background-color: black;
+  color: #fff;
+}
