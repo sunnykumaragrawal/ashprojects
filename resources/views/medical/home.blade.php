@@ -15,7 +15,7 @@ Best Medical Websites For Your Clinic @stop
   	  <div class="col-md-6">
   	  	<div class="template-box">
   	  	  <div class="template-img">
-  	  	  	<img src="{{asset('assets/img/medical/home/dento.png')}}" class="img-fluid">
+  	  	  	<img src="{{asset('assets/img/medical/home/dento.PNG')}}" class="img-fluid">
   	  	  </div>
           <div class="template-view">
             <a href="{{route('medicalDento')}}">View Demo</a>
@@ -25,7 +25,7 @@ Best Medical Websites For Your Clinic @stop
       <div class="col-md-6">
         <div class="template-box">
           <div class="template-img">
-            <img src="{{asset('assets/img/medical/home/childcare.png')}}" class="img-fluid">
+            <img src="{{asset('assets/img/medical/home/childcare.PNG')}}" class="img-fluid">
           </div>
           <div class="template-view">
             <a href="{{route('medicalChildcare')}}">View Demo</a>
