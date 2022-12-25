@@ -676,7 +676,7 @@ section {
     color: #fff;
     width: 90%;
     overflow-y: scroll;
-    height: 90px;
+    height: 140px;
     margin-bottom: 0;
 }
 
@@ -688,6 +688,7 @@ section {
   padding: 10px 8px 10px 45px;
   color: #fff;
   width: 90%;
+  display: none;
 }
 
 .resource-btn i{
