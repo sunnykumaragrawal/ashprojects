@@ -402,7 +402,7 @@ section {
 }
 
 .section-title h2 {
-  font-size: 36px;
+  font-size: 48px;
   font-weight: 700;
   text-transform: uppercase;
   margin-bottom: 20px;
@@ -438,6 +438,7 @@ section {
 # Template Box
 --------------------------------------------------------------*/
 .template-box{
+  box-shadow: 0 5px 5px 5px rgba(0, 0, 0, 0.4);
   margin-bottom: 40px;
 }
 

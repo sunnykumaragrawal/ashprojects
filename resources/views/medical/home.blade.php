@@ -79,13 +79,13 @@
         <div class="col-lg-6 order-lg-2 order-1">
           <div class="owl-carousel heroimg-carousel">
             <div class="hero-img">
-              <img src="{{asset('assets/img/medical/home/hero/hero1.png')}}" class="img-fluid">
+              <img src="{{asset('assets/img/medical/home/hero/hero1.webp')}}" class="img-fluid">
             </div>
             <div class="hero-img">
-              <img src="{{asset('assets/img/medical/home/hero/hero2.png')}}" class="img-fluid">
+              <img src="{{asset('assets/img/medical/home/hero/hero2.webp')}}" class="img-fluid">
             </div>
             <div class="hero-img">
-              <img src="{{asset('assets/img/medical/home/hero/hero3.png')}}" class="img-fluid">
+              <img src="{{asset('assets/img/medical/home/hero/hero3.webp')}}" class="img-fluid">
             </div>
           </div>
         </div>
