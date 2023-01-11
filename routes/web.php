@@ -60,3 +60,8 @@ Route::get('/medical/pediatrician', function () {
 Route::get('/medical/demo1', function () {
     return view('medical.demo1');
 })->name('medicalDemo1');
+
+/* v27 */
+Route::get('/medical/dentcare', function () {
+    return view('medical.dentcare');
+})->name('medicalDentcare');
