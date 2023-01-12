@@ -191,6 +191,16 @@
               </div>
             </div>
           </div>
+          <div class="col-md-6">
+            <div class="template-box">
+              <div class="template-img">
+                <img src="{{asset('assets/img/medical/home/babycare.PNG')}}" class="img-fluid">
+              </div>
+              <div class="template-view">
+                <a href="{{route('medicalBabycare')}}" target="_blank">View Demo</a>
+              </div>
+            </div>
+          </div>
         </div>
       </div>  
     </section>
