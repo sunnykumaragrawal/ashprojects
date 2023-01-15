@@ -66,7 +66,7 @@
 					<a class="hero-btn">Get An Appointment</a>
 				</div>
 				<div class="col-lg-6 hero-img order-lg-2 order-1">
-					<img src="{{asset('assets/img/medical/pediatrician/service/image1.jpg')}}" class="img-fluid">
+					<img src="{{asset('assets/img/medical/pediatrician/service/image1.webp')}}" class="img-fluid">
 				</div>	
 			</div>
 			<div class="row hero-block">
@@ -81,7 +81,7 @@
 					<a class="hero-btn">Get An Appointment</a>
 				</div>
 				<div class="col-lg-6 hero-img order-lg-2 order-1">
-					<img src="{{asset('assets/img/medical/pediatrician/service/image5.jpg')}}" class="img-fluid">
+					<img src="{{asset('assets/img/medical/pediatrician/service/image5.webp')}}" class="img-fluid">
 				</div>	
 			</div>
 			<div class="row hero-block">
@@ -96,7 +96,7 @@
 					<a class="hero-btn">Get An Appointment</a>
 				</div>
 				<div class="col-lg-6 hero-img order-lg-2 order-1">
-					<img src="{{asset('assets/img/medical/pediatrician/service/image3.jpg')}}" class="img-fluid">
+					<img src="{{asset('assets/img/medical/pediatrician/service/image3.webp')}}" class="img-fluid">
 				</div>	
 			</div>
 
@@ -156,7 +156,7 @@
 								<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam</p>
 							</div>
 							<div class="service-img">
-								<img src="{{asset('assets/img/medical/pediatrician/service/image1.jpg')}}" class="img-fluid">
+								<img src="{{asset('assets/img/medical/pediatrician/service/image1.webp')}}" class="img-fluid">
 							</div>
 						</div>	
 					</div>
@@ -167,7 +167,7 @@
 								<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam</p>
 							</div>
 							<div class="service-img">
-								<img src="{{asset('assets/img/medical/pediatrician/service/image2.jpg')}}" class="img-fluid">
+								<img src="{{asset('assets/img/medical/pediatrician/service/image2.webp')}}" class="img-fluid">
 							</div>
 						</div>	
 					</div>
@@ -178,7 +178,7 @@
 								<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam</p>
 							</div>
 							<div class="service-img">
-								<img src="{{asset('assets/img/medical/pediatrician/service/image3.jpg')}}" class="img-fluid">
+								<img src="{{asset('assets/img/medical/pediatrician/service/image3.webp')}}" class="img-fluid">
 							</div>
 						</div>	
 					</div>
@@ -189,7 +189,7 @@
 								<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam</p>
 							</div>
 							<div class="service-img">
-								<img src="{{asset('assets/img/medical/pediatrician/service/image4.jpg')}}" class="img-fluid">
+								<img src="{{asset('assets/img/medical/pediatrician/service/image4.webp')}}" class="img-fluid">
 							</div>
 						</div>	
 					</div>
@@ -200,7 +200,7 @@
 								<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam</p>
 							</div>
 							<div class="service-img">
-								<img src="{{asset('assets/img/medical/pediatrician/service/image5.jpg')}}" class="img-fluid">
+								<img src="{{asset('assets/img/medical/pediatrician/service/image5.webp')}}" class="img-fluid">
 							</div>
 						</div>	
 					</div>
@@ -211,7 +211,7 @@
 								<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam</p>
 							</div>
 							<div class="service-img">
-								<img src="{{asset('assets/img/medical/pediatrician/service/image6.jpg')}}" class="img-fluid">
+								<img src="{{asset('assets/img/medical/pediatrician/service/image6.webp')}}" class="img-fluid">
 							</div>
 						</div>	
 					</div>
@@ -222,7 +222,7 @@
 								<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam</p>
 							</div>
 							<div class="service-img">
-								<img src="{{asset('assets/img/medical/pediatrician/service/image7.jpg')}}" class="img-fluid">
+								<img src="{{asset('assets/img/medical/pediatrician/service/image7.webp')}}" class="img-fluid">
 							</div>
 						</div>	
 					</div>

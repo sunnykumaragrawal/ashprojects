@@ -25,7 +25,7 @@
 <body>
   <div class="image-animate">
     <span class="nav-toggle"><i class="bx bx-menu"></i></span>
-    <img src="{{asset('assets/img/medical/chiropractor/services/image6.jpg')}}" class="img-fluid">
+    <img src="{{asset('assets/img/medical/chiropractor/services/image6.webp')}}" class="img-fluid">
   </div>
   <!-- ======= Header ======= -->
   <header id="header">
@@ -92,7 +92,7 @@
              </div>
            </div>
            <div class="col-lg-4 col-md-6 about-img" data-aos="zoom-in">
-             <img src="{{asset('assets/img/medical/chiropractor/about/about.jpg')}}" class="img-fluid">
+             <img src="{{asset('assets/img/medical/chiropractor/about/about.webp')}}" class="img-fluid">
            </div>
            <div class="col-lg-4 col-md-12 mt-lg-0 mt-5">
              <div class="row">
@@ -164,7 +164,7 @@
          <div class="container myservices">
            <div class="row service-item" data-aos="fade-right" data-aos-delay="100">
              <div class="col-md-6 service-img">
-               <img src="{{asset('assets/img/medical/chiropractor/services/image1.jpg')}}" class="img-fluid">
+               <img src="{{asset('assets/img/medical/chiropractor/services/image1.webp')}}" class="img-fluid">
              </div>
              <div class="col-md-6 service-content">
                <div class="service-icon">
@@ -176,7 +176,7 @@
            </div>
            <div class="row service-item" data-aos="fade-left" data-aos-delay="200">
              <div class="col-md-6 service-img order-md-2">
-               <img src="{{asset('assets/img/medical/chiropractor/services/image2.jpg')}}" class="img-fluid">
+               <img src="{{asset('assets/img/medical/chiropractor/services/image2.webp')}}" class="img-fluid">
              </div>
              <div class="col-md-6 service-content order-md-1">
                <div class="service-icon">
@@ -188,7 +188,7 @@
            </div>
            <div class="row service-item" data-aos="fade-right" data-aos-delay="300">
              <div class="col-md-6 service-img">
-               <img src="{{asset('assets/img/medical/chiropractor/services/image3.jpg')}}" class="img-fluid">
+               <img src="{{asset('assets/img/medical/chiropractor/services/image3.webp')}}" class="img-fluid">
              </div>
              <div class="col-md-6 service-content">
                <div class="service-icon">
@@ -200,7 +200,7 @@
            </div>
            <div class="row service-item" data-aos="fade-left" data-aos-delay="400">
              <div class="col-md-6 service-img order-md-2">
-               <img src="{{asset('assets/img/medical/chiropractor/services/image4.jpg')}}" class="img-fluid">
+               <img src="{{asset('assets/img/medical/chiropractor/services/image4.webp')}}" class="img-fluid">
              </div>
              <div class="col-md-6 service-content order-md-1">
                <div class="service-icon">
@@ -219,7 +219,7 @@
          <div class="container myservices">
            <div class="row service-item" data-aos="zoom-in" data-aos-delay="100">
              <div class="col-md-6 service-img">
-               <img src="{{asset('assets/img/medical/chiropractor/services/image5.jpg')}}" class="img-fluid">
+               <img src="{{asset('assets/img/medical/chiropractor/services/image5.webp')}}" class="img-fluid">
              </div>
              <div class="col-md-6 service-content">
                <div class="service-icon">
@@ -231,7 +231,7 @@
            </div>
            <div class="row service-item" data-aos="zoom-in" data-aos-delay="100">
              <div class="col-md-6 service-img order-md-2">
-               <img src="{{asset('assets/img/medical/chiropractor/services/image6.jpg')}}" class="img-fluid">
+               <img src="{{asset('assets/img/medical/chiropractor/services/image6.webp')}}" class="img-fluid">
              </div>
              <div class="col-md-6 service-content order-md-1">
                <div class="service-icon">

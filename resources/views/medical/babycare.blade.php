@@ -91,7 +91,7 @@
           </div>
         </div>
         <div class="col-lg-6 hero-img order-lg-2 order-1">
-          <img src="{{asset('assets/img/medical/babycare/hero-img.jpg')}}" class="img-fluid">
+          <img src="{{asset('assets/img/medical/babycare/hero-img.webp')}}" class="img-fluid">
         </div>
       </div>
     </div>
@@ -141,7 +141,7 @@
        
        <div class="col-lg-3 col-md-6" data-aos="zoom-in" data-aos-delay="100">
         <div class="service-box service1">
-         <img src="{{asset('assets/img/medical/babycare/service/image1.jpg')}}" class="img-fluid">
+         <img src="{{asset('assets/img/medical/babycare/service/image1.webp')}}" class="img-fluid">
          <h5>Well Child Check Ups</h5>
          <a onclick="document.getElementById('service1').style.display='block'"><img src="{{asset('assets/img/medical/babycare/read-more.png')}}" class="img-fluid"></a>
          <div class="service-hover service1" id="service1" onmouseout="document.getElementById('service1').style.display='none'">
@@ -154,7 +154,7 @@
 
        <div class="col-lg-3 col-md-6" data-aos="zoom-in" data-aos-delay="200">
         <div class="service-box service2">
-          <img src="{{asset('assets/img/medical/babycare/service/image2.jpg')}}" class="img-fluid">
+          <img src="{{asset('assets/img/medical/babycare/service/image2.webp')}}" class="img-fluid">
           <h5>Child immunization</h5>
           <a onclick="document.getElementById('service2').style.display='block'"><img src="{{asset('assets/img/medical/babycare/read-more.png')}}" class="img-fluid"></a>
           <div class="service-hover service2" id="service2" onmouseout="document.getElementById('service2').style.display='none'">
@@ -167,7 +167,7 @@
 
        <div class="col-lg-3 col-md-6" data-aos="zoom-in" data-aos-delay="300">
         <div class="service-box service3">
-          <img src="{{asset('assets/img/medical/babycare/service/image3.jpg')}}" class="img-fluid">
+          <img src="{{asset('assets/img/medical/babycare/service/image3.webp')}}" class="img-fluid">
           <h5>Acute Illnesses</h5>
           <a onclick="document.getElementById('service3').style.display='block'"><img src="{{asset('assets/img/medical/babycare/read-more.png')}}" class="img-fluid"></a>
           <div class="service-hover service3" id="service3" onmouseout="document.getElementById('service3').style.display='none'">
@@ -180,7 +180,7 @@
 
        <div class="col-lg-3 col-md-6" data-aos="zoom-in" data-aos-delay="400">
         <div class="service-box service4">
-          <img src="{{asset('assets/img/medical/babycare/service/image4.jpg')}}" class="img-fluid">
+          <img src="{{asset('assets/img/medical/babycare/service/image4.webp')}}" class="img-fluid">
           <h5>Add/adhd</h5>
           <a onclick="document.getElementById('service4').style.display='block'"><img src="{{asset('assets/img/medical/babycare/read-more.png')}}" class="img-fluid"></a>
           <div class="service-hover service4" id="service4" onmouseout="document.getElementById('service4').style.display='none'">
@@ -193,7 +193,7 @@
 
        <div class="col-lg-3 col-md-6" data-aos="zoom-in" data-aos-delay="500">
         <div class="service-box service5">
-          <img src="{{asset('assets/img/medical/babycare/service/image5.jpg')}}" class="img-fluid">
+          <img src="{{asset('assets/img/medical/babycare/service/image5.webp')}}" class="img-fluid">
           <h5>Asthma & Eczema</h5>
           <a onclick="document.getElementById('service5').style.display='block'"><img src="{{asset('assets/img/medical/babycare/read-more.png')}}" class="img-fluid"></a>
           <div class="service-hover service5" id="service5" onmouseout="document.getElementById('service5').style.display='none'">
@@ -206,7 +206,7 @@
 
        <div class="col-lg-3 col-md-6" data-aos="zoom-in" data-aos-delay="600">
         <div class="service-box service6">
-          <img src="{{asset('assets/img/medical/babycare/service/image6.jpg')}}" class="img-fluid">
+          <img src="{{asset('assets/img/medical/babycare/service/image6.webp')}}" class="img-fluid">
           <h5>Behavioral Problems</h5>
           <a onclick="document.getElementById('service6').style.display='block'"><img src="{{asset('assets/img/medical/babycare/read-more.png')}}" class="img-fluid"></a>
           <div class="service-hover service6" id="service6" onmouseout="document.getElementById('service6').style.display='none'">
@@ -219,7 +219,7 @@
 
        <div class="col-lg-3 col-md-6" data-aos="zoom-in" data-aos-delay="700">
         <div class="service-box service7">
-          <img src="{{asset('assets/img/medical/babycare/service/image7.jpg')}}" class="img-fluid">
+          <img src="{{asset('assets/img/medical/babycare/service/image7.webp')}}" class="img-fluid">
           <h5>Growth Problems</h5>
           <a onclick="document.getElementById('service7').style.display='block'"><img src="{{asset('assets/img/medical/babycare/read-more.png')}}" class="img-fluid"></a>
           <div class="service-hover service7" id="service7" onmouseout="document.getElementById('service7').style.display='none'">

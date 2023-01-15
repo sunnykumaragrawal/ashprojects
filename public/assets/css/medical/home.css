@@ -6,7 +6,7 @@ body {
 }
 
 a {
-  color: #ee390f;
+  color: #25806F;
 }
 
 a:hover {
@@ -33,7 +33,7 @@ a:hover {
   width: 40px;
   height: 40px;
   border-radius: 50px;
-  background: #ee390f;
+  background: #25806F;
   color: #fff;
   transition: all 0.4s;
 }
@@ -60,7 +60,7 @@ a:hover {
   padding: 20px 0;
   z-index: 10;
   position: relative;
-  background-color: #ee390f;
+  background-color: #25806F;
   display: none;
 }
 
@@ -113,7 +113,7 @@ a:hover {
 }
 
 .nav-title{
-  background-color: #ee390f !important;
+  background-color: #25806F !important;
   color: #fff !important;
   font-size: 28px !important;
 }
@@ -127,7 +127,7 @@ a:hover {
   text-align: center;
   position: relative;
   color: #000;
-  border: 1px dashed #ee390f;
+  border: 1px dashed #25806F;
   padding: 20px 20px 10px;
   font-weight: 700;
   font-size: 20px;
@@ -147,7 +147,7 @@ a:hover {
 }
 
 .nav-menu a:hover, .nav-menu .active > a, .nav-menu li:hover > a {
-  color: #ee390f;
+  color: #25806F;
   text-decoration: none;
 }
 
@@ -188,7 +188,7 @@ a:hover {
 
 @media(max-width: 767px){
   .nav-title{
-    background-color: #ee390f !important;
+    background-color: #25806F !important;
     color: #fff !important;
     font-size: 20px !important;
   }
@@ -217,7 +217,7 @@ a:hover {
 #hero {
   padding: 0 0 !important;
   width: 100%;
-  background-color: #ee390f;
+  background-color: #25806F;
   position: relative;
   z-index: 9;
   overflow: hidden;
@@ -337,7 +337,7 @@ a:hover {
 # Template Btns
 --------------------------------------------------------------*/
 .template-btn1, .template-btn2:hover{
-  background-color: #ee390f;
+  background-color: #25806F;
 }
 
 .template-btn1 {
@@ -423,7 +423,7 @@ section {
   display: block;
   width: 50px;
   height: 3px;
-  background: #ee390f;
+  background: #25806F;
   bottom: 0;
   left: 50%;
   margin-left: -25px;
@@ -444,7 +444,7 @@ section {
 
 .template-view a{
   display: block;
-  border: 5px solid #ee390f;
+  border: 5px solid #25806F;
   padding: 15px;
   font-weight: 700;
   font-size: 20px;
@@ -452,12 +452,12 @@ section {
   text-transform: uppercase;
   margin-top: 5px;
   background-color: #fff;
-  color: #ee390f;
+  color: #25806F;
   transition: all 0.5s ease-in-out;
 }
 
 .template-view a:hover{
-  background-color: #ee390f;
+  background-color: #25806F;
   color: #fff;
 }
 

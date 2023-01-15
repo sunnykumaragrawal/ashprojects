@@ -62,43 +62,43 @@
   <section id="hero" class="hero-area">
       <div class="hero-carousel owl-carousel">
           
-          <div class="hero-item" style="background-image: url(/assets/img/medical/childcare/services/image1.jpg);" data-img-url="/assets/img/medical/childcare/services/image1.jpg">
+          <div class="hero-item" style="background-image: url(/assets/img/medical/childcare/services/image1.webp);" data-img-url="/assets/img/medical/childcare/services/image1.webp">
               <div class="hero-content">
                <h1>Well Child Check Ups</h1>
               </div>
           </div>
 
-          <div class="hero-item" style="background-image: url(/assets/img/medical/childcare/services/image2.jpg);" data-img-url="/assets/img/medical/childcare/services/image2.jpg">
+          <div class="hero-item" style="background-image: url(/assets/img/medical/childcare/services/image2.webp);" data-img-url="/assets/img/medical/childcare/services/image2.webp">
               <div class="hero-content">
                 <h1>Childhood immunization</h1>
               </div>
           </div>
 
-          <div class="hero-item" style="background-image: url(/assets/img/medical/childcare/services/image3.jpg);" data-img-url="/assets/img/medical/childcare/services/image3.jpg">
+          <div class="hero-item" style="background-image: url(/assets/img/medical/childcare/services/image3.webp);" data-img-url="/assets/img/medical/childcare/services/image3.webp">
               <div class="hero-content">
                 <h1>Acute Illnesses</h1>
               </div>
           </div>
 
-          <div class="hero-item" style="background-image: url(/assets/img/medical/childcare/services/image4.jpg);" data-img-url="/assets/img/medical/childcare/services/image4.jpg">
+          <div class="hero-item" style="background-image: url(/assets/img/medical/childcare/services/image4.webp);" data-img-url="/assets/img/medical/childcare/services/image4.webp">
               <div class="hero-content">
                 <h1>Add/adhd</h1>
               </div>
           </div>
 
-          <div class="hero-item" style="background-image: url(/assets/img/medical/childcare/services/image5.jpg);" data-img-url="/assets/img/medical/childcare/services/image5.jpg">
+          <div class="hero-item" style="background-image: url(/assets/img/medical/childcare/services/image5.webp);" data-img-url="/assets/img/medical/childcare/services/image5.webp">
               <div class="hero-content">
                 <h1>Asthma & Eczema</h1>
               </div>
           </div>
 
-          <div class="hero-item" style="background-image: url(/assets/img/medical/childcare/services/image6.jpg);" data-img-url="/assets/img/medical/childcare/services/image6.jpg">
+          <div class="hero-item" style="background-image: url(/assets/img/medical/childcare/services/image6.webp);" data-img-url="/assets/img/medical/childcare/services/image6.webp">
               <div class="hero-content">
                 <h1>Behavioral Problems</h1>
               </div>
           </div>
 
-          <div class="hero-item" style="background-image: url(/assets/img/medical/childcare/services/image7.jpg);" data-img-url="/assets/img/medical/childcare/services/image7.jpg">
+          <div class="hero-item" style="background-image: url(/assets/img/medical/childcare/services/image7.webp);" data-img-url="/assets/img/medical/childcare/services/image7.webp">
               <div class="hero-content">
                 <h1>Growth Problems</h1>
               </div>
@@ -285,7 +285,7 @@
         </div>
         <div class="row">
           <div class="col-lg-5 d-flex justify-content-center align-items-center" data-aos="flip-right" data-aos-delay="300">
-            <img src="{{asset('assets/img/medical/childcare/faq-bg.png')}}" class="img-fluid">
+            <img src="{{asset('assets/img/medical/childcare/faq-bg.webp')}}" class="img-fluid">
           </div>
           <div class="col-lg-7">
             <div class="row accordion">

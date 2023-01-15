@@ -42,6 +42,7 @@
           <li><a href="https://agrawalsoftwarehouse.com/#services"><img src="{{asset('assets/img/medical/home/nav/service.png')}}" class="img-fluid"><span>Services</span></a></li>
           <li><a href="https://agrawalsoftwarehouse.com/#pricing"><img src="{{asset('assets/img/medical/home/nav/pricing.png')}}" class="img-fluid"><span>Pricing</span></a></li>
           <li><a href="https://agrawalsoftwarehouse.com/#team"><img src="{{asset('assets/img/medical/home/nav/team.png')}}" class="img-fluid"><span>Owner</span></a></li>
+          <li><a href="https://agrawalsoftwarehouse.com/#faq"><img src="assets/img/nav/faq.png" class="img-fluid"><span>Faqs</span></a></li>
           <li><a href="https://agrawalsoftwarehouse.com/#contact"><img src="{{asset('assets/img/medical/home/nav/contact.png')}}" class="img-fluid"><span>Contact Us</span></a></li>
           
         </ul>
