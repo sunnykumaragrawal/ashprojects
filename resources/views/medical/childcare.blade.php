@@ -20,17 +20,6 @@
 
 <body>
 
-  <div id="loader-wrapper">
-    <div class="preloader-section preloader-left"></div>
-    <div class="preloader-section preloader-right"></div>
-    <div id="preloader_1">
-      <span></span>
-      <span></span>
-      <span></span>
-      <span></span>
-      <span></span>
-    </div>
-  </div>
   <a href="#" class="back-to-top"><i class="icofont-arrow-up"></i><span>Back To Top</span></a>
 
   <!-- ======= Header ======= -->

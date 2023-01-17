@@ -22,11 +22,6 @@
 
 <body>
 
-  <div class="preloader" id="preloader">
-      <div class="preloader-img">
-        <img src="{{asset('assets/img/medical/dento/loading1.gif')}}" class="img-fluid">
-      </div>
-  </div>
   <a href="#" class="back-to-top"><i class="icofont-arrow-up"></i></a>
 
   <!-- ======= Header ======= -->
@@ -87,13 +82,13 @@
         <div class="col-lg-3 offset-lg-2 order-lg-2 order-1">
           <div class="owl-carousel heroimg-carousel">
             <div class="hero-img">
-              <img src="{{asset('assets/img/medical/dento/hero/hero1.png')}}" class="img-fluid">
+              <img src="{{asset('assets/img/medical/dento/hero/hero1.webp')}}" class="img-fluid">
             </div>
             <div class="hero-img">
-              <img src="{{asset('assets/img/medical/dento/hero/hero2.png')}}" class="img-fluid">
+              <img src="{{asset('assets/img/medical/dento/hero/hero2.webp')}}" class="img-fluid">
             </div>
             <div class="hero-img">
-              <img src="{{asset('assets/img/medical/dento/hero/hero3.png')}}" class="img-fluid">
+              <img src="{{asset('assets/img/medical/dento/hero/hero3.webp')}}" class="img-fluid">
             </div>
           </div>
         </div>
@@ -187,7 +182,7 @@
           <div class="col-lg-3 col-md-6" data-aos="flip-down" data-aos-delay="100">
             <div class="service-item">
               <div class="service-img">
-                <img src="{{asset('assets/img/medical/dento/services/image1.jpg')}}" class="img-fluid">
+                <img src="{{asset('assets/img/medical/dento/services/image1.webp')}}" class="img-fluid">
                 <div class="service-content">
                 <div class="service-icon">
                   <img src="{{asset('assets/img/medical/dento/service/image1.png')}}" class="img-fluid">
@@ -200,7 +195,7 @@
           <div class="col-lg-3 col-md-6" data-aos="flip-down" data-aos-delay="200">
             <div class="service-item">
               <div class="service-img">
-                <img src="{{asset('assets/img/medical/dento/services/image2.jpg')}}" class="img-fluid">
+                <img src="{{asset('assets/img/medical/dento/services/image2.webp')}}" class="img-fluid">
                 <div class="service-content">
                 <div class="service-icon">
                   <img src="{{asset('assets/img/medical/dento/service/image2.png')}}" class="img-fluid">
@@ -213,7 +208,7 @@
           <div class="col-lg-3 col-md-6" data-aos="flip-down" data-aos-delay="300">
             <div class="service-item">
               <div class="service-img">
-                <img src="{{asset('assets/img/medical/dento/services/image3.jpg')}}" class="img-fluid">
+                <img src="{{asset('assets/img/medical/dento/services/image3.webp')}}" class="img-fluid">
                 <div class="service-content">
                 <div class="service-icon">
                   <img src="{{asset('assets/img/medical/dento/service/image3.png')}}" class="img-fluid">
@@ -226,7 +221,7 @@
           <div class="col-lg-3 col-md-6" data-aos="flip-down" data-aos-delay="400">
             <div class="service-item">
               <div class="service-img">
-                <img src="{{asset('assets/img/medical/dento/services/image4.jpg')}}" class="img-fluid">
+                <img src="{{asset('assets/img/medical/dento/services/image4.webp')}}" class="img-fluid">
                 <div class="service-content">
                 <div class="service-icon">
                   <img src="{{asset('assets/img/medical/dento/service/image4.png')}}" class="img-fluid">
@@ -239,7 +234,7 @@
           <div class="col-lg-3 col-md-6" data-aos="flip-down" data-aos-delay="500">
             <div class="service-item">
               <div class="service-img">
-                <img src="{{asset('assets/img/medical/dento/services/image5.jpg')}}" class="img-fluid">
+                <img src="{{asset('assets/img/medical/dento/services/image5.webp')}}" class="img-fluid">
                 <div class="service-content">
                 <div class="service-icon">
                   <img src="{{asset('assets/img/medical/dento/service/image5.png')}}" class="img-fluid">
@@ -252,7 +247,7 @@
           <div class="col-lg-3 col-md-6" data-aos="flip-down" data-aos-delay="600">
             <div class="service-item">
               <div class="service-img">
-                <img src="{{asset('assets/img/medical/dento/services/image6.jpg')}}" class="img-fluid">
+                <img src="{{asset('assets/img/medical/dento/services/image6.webp')}}" class="img-fluid">
                 <div class="service-content">
                 <div class="service-icon">
                   <img src="{{asset('assets/img/medical/dento/service/image6.png')}}" class="img-fluid">
@@ -265,7 +260,7 @@
           <div class="col-lg-3 col-md-6" data-aos="flip-down" data-aos-delay="700">
             <div class="service-item">
               <div class="service-img">
-                <img src="{{asset('assets/img/medical/dento/services/image7.jpg')}}" class="img-fluid">
+                <img src="{{asset('assets/img/medical/dento/services/image7.webp')}}" class="img-fluid">
                 <div class="service-content">
                 <div class="service-icon">
                   <img src="{{asset('assets/img/medical/dento/service/image7.png')}}" class="img-fluid">
@@ -278,7 +273,7 @@
           <div class="col-lg-3 col-md-6" data-aos="flip-down" data-aos-delay="800">
             <div class="service-item">
               <div class="service-img">
-                <img src="{{asset('assets/img/medical/dento/services/image8.jpg')}}" class="img-fluid">
+                <img src="{{asset('assets/img/medical/dento/services/image8.webp')}}" class="img-fluid">
                 <div class="service-content">
                 <div class="service-icon">
                   <img src="{{asset('assets/img/medical/dento/service/image8.png')}}" class="img-fluid">

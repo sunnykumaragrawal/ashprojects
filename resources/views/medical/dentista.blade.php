@@ -65,7 +65,7 @@
     <div class="owl-carousel hero-carousel">
       <div class="row slide">
         <div class="col-lg-6 hero-img">
-          <img src="{{asset('assets/img/medical/dentista/service/image1.jpg')}}" class="img-fluid">
+          <img src="{{asset('assets/img/medical/dentista/service/image1.webp')}}" class="img-fluid">
         </div>
         <div class="col-lg-6 hero-content">
           <h1>Best <span>Dental Cleaning</span> In City</h1>
@@ -75,7 +75,7 @@
       </div>
       <div class="row slide">
         <div class="col-lg-6 hero-img">
-          <img src="{{asset('assets/img/medical/dentista/service/image2.jpg')}}" class="img-fluid">
+          <img src="{{asset('assets/img/medical/dentista/service/image2.webp')}}" class="img-fluid">
         </div>
         <div class="col-lg-6 hero-content">
           <h1>Best <span>Family Dentistry</span> In City</h1>
@@ -85,7 +85,7 @@
       </div>
       <div class="row slide">
         <div class="col-lg-6 hero-img">
-          <img src="{{asset('assets/img/medical/dentista/service/image3.jpg')}}" class="img-fluid">
+          <img src="{{asset('assets/img/medical/dentista/service/image3.webp')}}" class="img-fluid">
         </div>
         <div class="col-lg-6 hero-content">
           <h1>Best <span>Child Dentistry</span> In City</h1>
@@ -195,7 +195,7 @@
             <div class="col-lg-6" data-aos="zoom-in" data-aos-delay="100">
               <div class="row service-item">
                 <div class="col-md-6 service-img">
-                  <img src="{{asset('assets/img/medical/dentista/service/image1.jpg')}}" class="img-fluid">
+                  <img src="{{asset('assets/img/medical/dentista/service/image1.webp')}}" class="img-fluid">
                 </div>
                 <div class="col-md-6 service-content">
                   <h5>Dental Cleaning</h5>
@@ -206,7 +206,7 @@
             <div class="col-lg-6" data-aos="zoom-in" data-aos-delay="100">
               <div class="row service-item">
                 <div class="col-md-6 service-img order-lg-1 order-md-2">
-                  <img src="{{asset('assets/img/medical/dentista/service/image2.jpg')}}" class="img-fluid">
+                  <img src="{{asset('assets/img/medical/dentista/service/image2.webp')}}" class="img-fluid">
                 </div>
                 <div class="col-md-6 service-content order-lg-2 order-md-1">
                   <h5>Family Dentistry</h5>
@@ -217,7 +217,7 @@
             <div class="col-lg-6" data-aos="zoom-in" data-aos-delay="100">
               <div class="row service-item">
                 <div class="col-md-6 service-img order-lg-2">
-                  <img src="{{asset('assets/img/medical/dentista/service/image3.jpg')}}" class="img-fluid">
+                  <img src="{{asset('assets/img/medical/dentista/service/image3.webp')}}" class="img-fluid">
                 </div>
                 <div class="col-md-6 service-content order-lg-1">
                   <h5>Pediatric Services</h5>
@@ -228,7 +228,7 @@
             <div class="col-lg-6" data-aos="zoom-in" data-aos-delay="100">
               <div class="row service-item">
                 <div class="col-md-6 service-img order-md-2">
-                  <img src="{{asset('assets/img/medical/dentista/service/image4.jpg')}}" class="img-fluid">
+                  <img src="{{asset('assets/img/medical/dentista/service/image4.webp')}}" class="img-fluid">
                 </div>
                 <div class="col-md-6 service-content order-md-1">
                   <h5>Oral Appliances</h5>
@@ -249,7 +249,7 @@
             <div class="col-lg-6">
               <div class="row service-item">
                 <div class="col-md-6 service-img">
-                  <img src="{{asset('assets/img/medical/dentista/service/image5.jpg')}}" class="img-fluid">
+                  <img src="{{asset('assets/img/medical/dentista/service/image5.webp')}}" class="img-fluid">
                 </div>
                 <div class="col-md-6 service-content">
                   <h5>Orthodontics</h5>
@@ -260,7 +260,7 @@
             <div class="col-lg-6">
               <div class="row service-item">
                 <div class="col-md-6 service-img order-lg-1 order-md-2">
-                  <img src="{{asset('assets/img/medical/dentista/service/image6.jpg')}}" class="img-fluid">
+                  <img src="{{asset('assets/img/medical/dentista/service/image6.webp')}}" class="img-fluid">
                 </div>
                 <div class="col-md-6 service-content order-lg-2 order-md-1">
                   <h5>Sedation Dentistry</h5>
@@ -271,7 +271,7 @@
             <div class="col-lg-6">
               <div class="row service-item">
                 <div class="col-md-6 service-img order-lg-2">
-                  <img src="{{asset('assets/img/medical/dentista/service/image7.jpg')}}" class="img-fluid">
+                  <img src="{{asset('assets/img/medical/dentista/service/image7.webp')}}" class="img-fluid">
                 </div>
                 <div class="col-md-6 service-content order-lg-1">
                   <h5>Cosmetic Dentistry</h5>
@@ -282,7 +282,7 @@
             <div class="col-lg-6">
               <div class="row service-item">
                 <div class="col-md-6 service-img order-md-2">
-                  <img src="{{asset('assets/img/medical/dentista/service/image8.jpg')}}" class="img-fluid">
+                  <img src="{{asset('assets/img/medical/dentista/service/image8.webp')}}" class="img-fluid">
                 </div>
                 <div class="col-md-6 service-content order-md-1">
                   <h5>Tooth Replacement</h5>

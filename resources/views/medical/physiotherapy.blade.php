@@ -24,11 +24,6 @@
 
 <body>
 
-  <div class="preloader" id="preloader">
-      <div class="preloader-img">
-        <img src="{{asset('assets/img/medical/physiotherapy/loading1.gif')}}" class="img-fluid">
-      </div>
-  </div>
   <a href="#" class="back-to-top"><i class="icofont-arrow-up"></i></a>
 
   <!-- ======= Header ======= -->
@@ -152,7 +147,7 @@
               <div class="col-lg-6" data-aos="zoom-in" data-aos-delay="100" data-aos-duration="300">
                 <div class="service-item">
                   <div class="service-img">
-                    <img src="{{asset('assets/img/medical/physiotherapy/services/image1.jpg')}}" class="img-fluid">
+                    <img src="{{asset('assets/img/medical/physiotherapy/services/image1.webp')}}" class="img-fluid">
                     <div class="service-content">
                       <div class="service-icon">
                         <img src="{{asset('assets/img/medical/physiotherapy/service/image1.png')}}" class="img-fluid">
@@ -166,7 +161,7 @@
               <div class="col-lg-6" data-aos="zoom-in" data-aos-delay="100" data-aos-duration="400">
                 <div class="service-item">
                   <div class="service-img">
-                    <img src="{{asset('assets/img/medical/physiotherapy/services/image2.jpg')}}" class="img-fluid">
+                    <img src="{{asset('assets/img/medical/physiotherapy/services/image2.webp')}}" class="img-fluid">
                     <div class="service-content">
                       <div class="service-icon">
                         <img src="{{asset('assets/img/medical/physiotherapy/service/image2.png')}}" class="img-fluid">
@@ -180,7 +175,7 @@
               <div class="col-lg-6" data-aos="zoom-in" data-aos-delay="100" data-aos-duration="500">
                 <div class="service-item">
                   <div class="service-img">
-                    <img src="{{asset('assets/img/medical/physiotherapy/services/image3.jpg')}}" class="img-fluid">
+                    <img src="{{asset('assets/img/medical/physiotherapy/services/image3.webp')}}" class="img-fluid">
                     <div class="service-content">
                       <div class="service-icon">
                         <img src="{{asset('assets/img/medical/physiotherapy/service/image3.png')}}" class="img-fluid">
@@ -194,7 +189,7 @@
               <div class="col-lg-6" data-aos="zoom-in" data-aos-delay="100" data-aos-duration="600">
                 <div class="service-item">
                   <div class="service-img">
-                    <img src="{{asset('assets/img/medical/physiotherapy/services/image4.jpg')}}" class="img-fluid">
+                    <img src="{{asset('assets/img/medical/physiotherapy/services/image4.webp')}}" class="img-fluid">
                     <div class="service-content">
                       <div class="service-icon">
                         <img src="{{asset('assets/img/medical/physiotherapy/service/image4.png')}}" class="img-fluid">
@@ -212,7 +207,7 @@
               <div class="col-lg-6">
                 <div class="service-item">
                   <div class="service-img">
-                    <img src="{{asset('assets/img/medical/physiotherapy/services/image5.jpg')}}" class="img-fluid">
+                    <img src="{{asset('assets/img/medical/physiotherapy/services/image5.webp')}}" class="img-fluid">
                     <div class="service-content">
                       <div class="service-icon">
                         <img src="{{asset('assets/img/medical/physiotherapy/service/image5.png')}}" class="img-fluid">
@@ -226,7 +221,7 @@
               <div class="col-lg-6">
                 <div class="service-item">
                   <div class="service-img">
-                    <img src="{{asset('assets/img/medical/physiotherapy/services/image6.jpg')}}" class="img-fluid">
+                    <img src="{{asset('assets/img/medical/physiotherapy/services/image6.webp')}}" class="img-fluid">
                     <div class="service-content">
                       <div class="service-icon">
                         <img src="{{asset('assets/img/medical/physiotherapy/service/image6.png')}}" class="img-fluid">
