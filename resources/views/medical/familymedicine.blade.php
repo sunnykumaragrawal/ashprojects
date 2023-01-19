@@ -24,12 +24,6 @@
 
 <body>
 
-  <div class="preloader" id="preloader">
-      <div class="preloader-img">
-        <span class="loading-animation animate-flicker"><img src="{{asset('assets/img/medical/fammed/loading.GIF')}}" alt="loading" /></span>
-      </div>
-  </div>
-
   <!-- ======= Header ======= -->
   <header id="header">
     <div class="container">
@@ -86,13 +80,13 @@
         <div class="col-lg-6 order-lg-2 order-1">
           <div class="owl-carousel heroimg-carousel">
             <div class="hero-img">
-              <img src="{{asset('assets/img/medical/fammed/hero/hero1.png')}}" class="img-fluid">
+              <img src="{{asset('assets/img/medical/fammed/hero/hero1.webp')}}" class="img-fluid">
             </div>
             <div class="hero-img">
-              <img src="{{asset('assets/img/medical/fammed/hero/hero2.png')}}" class="img-fluid">
+              <img src="{{asset('assets/img/medical/fammed/hero/hero2.webp')}}" class="img-fluid">
             </div>
             <div class="hero-img">
-              <img src="{{asset('assets/img/medical/fammed/hero/hero3.png')}}" class="img-fluid">
+              <img src="{{asset('assets/img/medical/fammed/hero/hero3.webp')}}" class="img-fluid">
             </div>
           </div>
         </div>
@@ -206,56 +200,56 @@
             <div class="tab-content" data-aos="flip-up" data-aos-delay="200">
               <div class="tab-pane active show" id="service-1">
                 <div class="service-item">
-                  <img src="{{asset('assets/img/medical/fammed/services/image1.jpg')}}" class="img-fluid">
+                  <img src="{{asset('assets/img/medical/fammed/services/image1.webp')}}" class="img-fluid">
                   <h4>Sports Physicals</h4>
                   <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam</p>
                 </div>
               </div>
               <div class="tab-pane" id="service-2">
                 <div class="service-item">
-                  <img src="{{asset('assets/img/medical/fammed/services/image2.jpg')}}" class="img-fluid">
+                  <img src="{{asset('assets/img/medical/fammed/services/image2.webp')}}" class="img-fluid">
                   <h4>Including Gyn Services</h4>
                   <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam</p>
                 </div>
               </div>
               <div class="tab-pane" id="service-3">
                 <div class="service-item">
-                  <img src="{{asset('assets/img/medical/fammed/services/image3.jpg')}}" class="img-fluid">
+                  <img src="{{asset('assets/img/medical/fammed/services/image3.webp')}}" class="img-fluid">
                   <h4>Camp Physicals</h4>
                   <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam</p>
                 </div>
               </div>
               <div class="tab-pane" id="service-4">
                 <div class="service-item">
-                  <img src="{{asset('assets/img/medical/fammed/services/image4.jpg')}}" class="img-fluid">
+                  <img src="{{asset('assets/img/medical/fammed/services/image4.webp')}}" class="img-fluid">
                   <h4>School Physicals</h4>
                   <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam</p>
                 </div>
               </div>
               <div class="tab-pane" id="service-5">
                 <div class="service-item">
-                  <img src="{{asset('assets/img/medical/fammed/services/image5.jpg')}}" class="img-fluid">
+                  <img src="{{asset('assets/img/medical/fammed/services/image5.webp')}}" class="img-fluid">
                   <h4>FAA Exams</h4>
                   <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam</p>
                 </div>
               </div>
               <div class="tab-pane" id="service-6">
                 <div class="service-item">
-                  <img src="{{asset('assets/img/medical/fammed/services/image6.jpg')}}" class="img-fluid">
+                  <img src="{{asset('assets/img/medical/fammed/services/image6.webp')}}" class="img-fluid">
                   <h4>Laboratory Services</h4>
                   <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam</p>
                 </div>
               </div>
               <div class="tab-pane" id="service-7">
                 <div class="service-item">
-                  <img src="{{asset('assets/img/medical/fammed/services/image7.jpg')}}" class="img-fluid">
+                  <img src="{{asset('assets/img/medical/fammed/services/image7.webp')}}" class="img-fluid">
                   <h4>EKG Services</h4>
                   <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam</p>
                 </div>
               </div>
               <div class="tab-pane" id="service-8">
                 <div class="service-item">
-                  <img src="{{asset('assets/img/medical/fammed/services/image8.jpg')}}" class="img-fluid">
+                  <img src="{{asset('assets/img/medical/fammed/services/image8.webp')}}" class="img-fluid">
                   <h4>Well Child Care</h4>
                   <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam</p>
                 </div>

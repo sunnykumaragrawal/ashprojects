@@ -20,9 +20,6 @@
 </head>
 <body>
 
-	<div id="preloder"><div class="loader"></div></div>
-	<a href="#" class="back-to-top"><i class="icofont-arrow-up"></i></a>
-
 	<!-- Offcanvas Menu Section -->
 	<div class="menu-wrapper">
 		<div class="menu-switch"><i class="ti-menu"></i></div>
