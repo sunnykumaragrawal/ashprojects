@@ -352,7 +352,7 @@ a:hover {
 #hero {
   width: 100%;
   height: 100vh;
-  background-image: url("/assets/img/medical/chiropractor/hero/hero-bg.jpg");
+  background-image: url("/assets/img/medical/chiropractor/hero/hero-bg.webp");
   background-position: center center;
   background-size: cover;
   background-attachment: fixed;
@@ -367,16 +367,16 @@ a:hover {
 
 @keyframes hero-image {
   0% {
-    background-image: url("/assets/img/medical/chiropractor/hero/hero-bg.jpg");
+    background-image: url("/assets/img/medical/chiropractor/hero/hero-bg.webp");
   }
   50% {
-    background-image: url("/assets/img/medical/chiropractor/hero/hero-bg2.jpg");
+    background-image: url("/assets/img/medical/chiropractor/hero/hero-bg2.webp");
   }
   90% {
-    background-image: url("/assets/img/medical/chiropractor/hero/hero-bg1.jpg");
+    background-image: url("/assets/img/medical/chiropractor/hero/hero-bg1.webp");
   }
   100% {
-    background-image: url("/assets/img/medical/chiropractor/hero/hero-bg.jpg");
+    background-image: url("/assets/img/medical/chiropractor/hero/hero-bg.webp");
   }
 }
 
