@@ -12,6 +12,7 @@
 	<link rel="stylesheet" href="{{asset('assets/css/themify-icons.css')}}"/>
 	<link rel="stylesheet" href="{{asset('assets/css/font-awesome.min.css')}}"/>
 	<link href="{{asset('assets/vendor/icofont/icofont.min.css')}}" rel="stylesheet">
+	<link href="{{asset('assets/vendor/venobox/venobox.css')}}" rel="stylesheet">
 	<link href="{{asset('assets/vendor/owl.carousel/assets/owl.carousel.min.css')}}" rel="stylesheet">
 	<link href="{{asset('assets/vendor/aos/aos.css')}}" rel="stylesheet">
 
@@ -42,7 +43,7 @@
 				<li><a href="#hero" class="active">Home</a></li>
 				<li><a href="#aboutus">About</a></li>
 				<li><a href="#myservices">Services</a></li>
-				<li><a href="#recentblogs">News</a></li>
+				<li><a href="#gallery">Gallery</a></li>
 				<li><a href="#doctors">Doctors</a></li>
 				<li><a href="#contactus">Contact</a></li>
 			</ul>
@@ -60,7 +61,7 @@
 					</div>
 					<h1>Hey, <span class="servicetwo-typed"></span></h1>
 					<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam</p>
-					<a class="hero-btn">Get An Appointment</a>
+					<a class="hero-btn">Chat On Whatsapp</a>
 				</div>
 				<div class="col-lg-6 hero-img order-lg-2 order-1">
 					<img src="{{asset('assets/img/medical/pediatrician/service/image1.webp')}}" class="img-fluid">
@@ -75,7 +76,7 @@
 					</div>
 					<h1>Hey, <span class="servicethree-typed"></span></h1>
 					<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam</p>
-					<a class="hero-btn">Get An Appointment</a>
+					<a class="hero-btn">Chat On Whatsapp</a>
 				</div>
 				<div class="col-lg-6 hero-img order-lg-2 order-1">
 					<img src="{{asset('assets/img/medical/pediatrician/service/image5.webp')}}" class="img-fluid">
@@ -90,7 +91,7 @@
 					</div>
 					<h1>Best <span class="serviceone-typed"></span></h1>
 					<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam</p>
-					<a class="hero-btn">Get An Appointment</a>
+					<a class="hero-btn">Chat On Whatsapp</a>
 				</div>
 				<div class="col-lg-6 hero-img order-lg-2 order-1">
 					<img src="{{asset('assets/img/medical/pediatrician/service/image3.webp')}}" class="img-fluid">
@@ -227,98 +228,85 @@
 			</div>
 		</section>
 
-		<section id="recentblogs" class="recentblogs">
-			<div class="container">
-				<div class="section-title" data-aos="fade-down" data-aos-easing="linear" data-aos-duration="100">
-					<span>Blogs</span>
-					<h2>Recent Medical News</h2>
-				</div>
-				<div class="owl-carousel recentblogs-carousel">
-					<div class="recentblogs-block" data-aos="zoom-in" data-aos-easing="linear" data-aos-duration="200">
-						<div class="recentblogs-item">
-							<div class="recentblogs-img">
-								<img src="{{asset('assets/img/medical/pediatrician/blog/blog-1.jpg')}}" class="img-fluid">
-							</div>
-							<div class="recentblogs-content">
-								<div class="blog-date">
-									<div class="one">
-										<span class="day">11</span>	
-									</div>
-									<div class="two">
-										<span class="yr">2022</span>
-										<span class="mos">March</span>	
-									</div>
-								</div>
-								<div class="recentblogs-icons">
-									<ul>
-										<li><i class="fa fa-user"></i> John Doe</li>
-										<li><i class="fa fa-folder"></i> 3 Comments</li>
-									</ul>
-								</div>
-								<h3>Ut enim ad minim veniam</h3>
-								<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam</p>
-								<div class="recentblogs-btn"><a href="">Read more</a></div>	
-							</div>
-						</div>	
-					</div>
-					<div class="recentblogs-block" data-aos="zoom-in" data-aos-easing="linear" data-aos-duration="400">
-						<div class="recentblogs-item">
-							<div class="recentblogs-img">
-								<img src="{{asset('assets/img/medical/pediatrician/blog/blog-2.jpg')}}" class="img-fluid">
-							</div>
-							<div class="recentblogs-content">
-								<div class="blog-date">
-									<div class="one">
-										<span class="day">11</span>	
-									</div>
-									<div class="two">
-										<span class="yr">2022</span>
-										<span class="mos">March</span>	
-									</div>
-								</div>
-								<div class="recentblogs-icons">
-									<ul>
-										<li><i class="fa fa-user"></i> John Doe</li>
-										<li><i class="fa fa-folder"></i> 3 Comments</li>
-									</ul>
-								</div>
-								<h3>Ut enim ad minim veniam</h3>
+		<!-- ======= Gallery Section ======= -->
+		<section id="gallery" class="gallery">
+		  <div class="container">
 
-								<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam</p>
-								<div class="recentblogs-btn"><a href="">Read more</a></div>	
-							</div>
-						</div>	
-					</div>
-					<div class="recentblogs-block" data-aos="zoom-in" data-aos-easing="linear" data-aos-duration="600">
-						<div class="recentblogs-item">
-							<div class="recentblogs-img">
-								<img src="{{asset('assets/img/medical/pediatrician/blog/blog-3.jpg')}}" class="img-fluid">
-							</div>
-							<div class="recentblogs-content">
-								<div class="blog-date">
-									<div class="one">
-										<span class="day">11</span>	
-									</div>
-									<div class="two">
-										<span class="yr">2022</span>
-										<span class="mos">March</span>	
-									</div>
-								</div>
-								<div class="recentblogs-icons">
-									<ul>
-										<li><i class="fa fa-user"></i> John Doe</li>
-										<li><i class="fa fa-folder"></i> 3 Comments</li>
-									</ul>
-								</div>
-								<h3>Ut enim ad minim veniam</h3>
-								<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam</p>
-								<div class="recentblogs-btn"><a href="">Read more</a></div>	
-							</div>
-						</div>	
-					</div>
-				</div>
-			</div>
-		</section>
+		    <div class="section-title" data-aos="fade-down" data-aos-easing="linear" data-aos-duration="100">
+		    	<span>Gallery</span>
+		    	<h2>Check Our Gallery</h2>
+		    </div>
+
+		    <div class="row no-gutters" data-aos="fade-left">
+
+		      <div class="col-lg-3 col-md-4">
+		        <div class="gallery-item" data-aos="zoom-in" data-aos-delay="100">
+		          <a href="{{asset('assets/img/medical/dento/gallery/gallery-1.jpg')}}" class="venobox" data-gall="gallery-item">
+		            <img src="{{asset('assets/img/medical/dento/gallery/gallery-1.jpg')}}" alt="" class="img-fluid">
+		          </a>
+		        </div>
+		      </div>
+
+		      <div class="col-lg-3 col-md-4">
+		        <div class="gallery-item" data-aos="zoom-in" data-aos-delay="150">
+		          <a href="{{asset('assets/img/medical/dento/gallery/gallery-2.jpg')}}" class="venobox" data-gall="gallery-item">
+		            <img src="{{asset('assets/img/medical/dento/gallery/gallery-2.jpg')}}" alt="" class="img-fluid">
+		          </a>
+		        </div>
+		      </div>
+
+		      <div class="col-lg-3 col-md-4">
+		        <div class="gallery-item" data-aos="zoom-in" data-aos-delay="200">
+		          <a href="{{asset('assets/img/medical/dento/gallery/gallery-3.jpg')}}" class="venobox" data-gall="gallery-item">
+		            <img src="{{asset('assets/img/medical/dento/gallery/gallery-3.jpg')}}" alt="" class="img-fluid">
+		          </a>
+		        </div>
+		      </div>
+
+		      <div class="col-lg-3 col-md-4">
+		        <div class="gallery-item" data-aos="zoom-in" data-aos-delay="250">
+		          <a href="{{asset('assets/img/medical/dento/gallery/gallery-4.jpg')}}" class="venobox" data-gall="gallery-item">
+		            <img src="{{asset('assets/img/medical/dento/gallery/gallery-4.jpg')}}" alt="" class="img-fluid">
+		          </a>
+		        </div>
+		      </div>
+
+		      <div class="col-lg-3 col-md-4">
+		        <div class="gallery-item" data-aos="zoom-in" data-aos-delay="300">
+		          <a href="{{asset('assets/img/medical/dento/gallery/gallery-5.jpg')}}" class="venobox" data-gall="gallery-item">
+		            <img src="{{asset('assets/img/medical/dento/gallery/gallery-5.jpg')}}" alt="" class="img-fluid">
+		          </a>
+		        </div>
+		      </div>
+
+		      <div class="col-lg-3 col-md-4">
+		        <div class="gallery-item" data-aos="zoom-in" data-aos-delay="350">
+		          <a href="{{asset('assets/img/medical/dento/gallery/gallery-6.jpg')}}" class="venobox" data-gall="gallery-item">
+		            <img src="{{asset('assets/img/medical/dento/gallery/gallery-6.jpg')}}" alt="" class="img-fluid">
+		          </a>
+		        </div>
+		      </div>
+
+		      <div class="col-lg-3 col-md-4">
+		        <div class="gallery-item" data-aos="zoom-in" data-aos-delay="400">
+		          <a href="{{asset('assets/img/medical/dento/gallery/gallery-7.jpg')}}" class="venobox" data-gall="gallery-item">
+		            <img src="{{asset('assets/img/medical/dento/gallery/gallery-7.jpg')}}" alt="" class="img-fluid">
+		          </a>
+		        </div>
+		      </div>
+
+		      <div class="col-lg-3 col-md-4">
+		        <div class="gallery-item" data-aos="zoom-in" data-aos-delay="450">
+		          <a href="{{asset('assets/img/medical/dento/gallery/gallery-8.jpg')}}" class="venobox" data-gall="gallery-item">
+		            <img src="{{asset('assets/img/medical/dento/gallery/gallery-8.jpg')}}" alt="" class="img-fluid">
+		          </a>
+		        </div>
+		      </div>
+
+		    </div>
+
+		  </div>
+		</section><!-- End Gallery Section -->
 
 		<section id="doctors" class="doctors">
 			<div class="container">
@@ -433,52 +421,6 @@
 						</div>	
 					</div>
 				</div>
-				<div class="row no-gutters">
-					<div class="col-lg-7 order-lg-1 order-2" data-aos="fade-right" data-aos-easing="linear" data-aos-duration="200" style="background: #54348f;box-shadow: 0px 10px 23px -8px rgba(0, 0, 0, 0.3);">
-						<div class="contact-wrap w-100 p-md-5 p-4">
-							<h3 class="mb-4">Contact Us</h3>
-							<form method="POST" id="contactForm" name="contactForm" class="contactForm">
-								<div class="row">
-									<div class="col-md-12">
-										<div class="form-group">
-											<label class="label" for="name">Full Name</label>
-											<input type="text" class="form-control" name="name" id="name" placeholder="Name">
-										</div>
-									</div>
-									<div class="col-md-12"> 
-										<div class="form-group">
-											<label class="label" for="email">Email Address</label>
-											<input type="email" class="form-control" name="email" id="email" placeholder="Email">
-										</div>
-									</div>
-									<div class="col-md-12">
-										<div class="form-group">
-											<label class="label" for="subject">Subject</label>
-											<input type="text" class="form-control" name="subject" id="subject" placeholder="Subject">
-										</div>
-									</div>
-									<div class="col-md-12">
-										<div class="form-group">
-											<label class="label" for="#">Message</label>
-											<textarea name="message" class="form-control" id="message" cols="30" rows="4" placeholder="Message"></textarea>
-										</div>
-									</div>
-									<div class="col-md-12 mt-3">
-										<div class="form-group">
-											<input type="submit" value="Send Message" class="template-btn">
-											<div class="submitting"></div>
-										</div>
-									</div>
-								</div>
-							</form>
-						</div>
-					</div>
-					<div class="col-lg-5 d-flex align-items-stretch order-lg-2 order-1" data-aos="fade-left" data-aos-easing="linear" data-aos-duration="200">
-						<div class="info-wrap w-100 img">
-							<img src="{{asset('assets/img/medical/pediatrician/contact.jpg')}}" class="img-fluid">
-						</div>
-					</div>
-				</div>
 			</div>
 		</section>
 
@@ -526,6 +468,7 @@
 	<script src="{{asset('assets/vendor/jquery.easing/jquery.easing.min.js')}}"></script>
 	<script src="{{asset('assets/vendor/typed/typed.js')}}"></script>
 	<script src="{{asset('assets/vendor/typed/typed.min.js')}}"></script>
+	<script src="{{asset('assets/vendor/venobox/venobox.min.js')}}"></script>
 	<script src="{{asset('assets/vendor/owl.carousel/owl.carousel.min.js')}}"></script>
 	<script src="{{asset('assets/vendor/aos/aos.js')}}"></script>
 	<script src="{{asset('assets/js/medical/pediatrician.js')}}"></script>

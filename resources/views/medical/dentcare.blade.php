@@ -13,6 +13,7 @@
   <link href="{{asset('assets/vendor/bootstrap/css/bootstrap.min.css')}}" rel="stylesheet">
   <link href="{{asset('assets/vendor/icofont/icofont.min.css')}}" rel="stylesheet">
   <link href="{{asset('assets/vendor/boxicons/css/boxicons.min.css')}}" rel="stylesheet">
+  <link href="{{asset('assets/vendor/venobox/venobox.css')}}" rel="stylesheet">
   <link href="{{asset('assets/vendor/owl.carousel/assets/owl.carousel.min.css')}}" rel="stylesheet">
   <link href="{{asset('assets/vendor/aos/aos.css')}}" rel="stylesheet">
 
@@ -37,7 +38,7 @@
         <li class="active"><a href="#hero"><i class="bx bx-home"></i> <span>Home</span></a></li>
         <li><a href="#aboutus"><i class="bx bx-user"></i> <span>About</span></a></li>
         <li><a href="#services"><i class="bx bx-server"></i> <span>Services</span></a></li>
-        <li><a href="#recentblogs"><i class="icofont-blogger"></i> <span>Blogs</span></a></li>
+        <li><a href="#recentblogs"><i class="icofont-picture"></i> <span>Gallery</span></a></li>
         <li><a href="#doctors"><i class="icofont-doctor-alt"></i> <span>Doctors</span></a></li>
         <li><a href="#contact"><i class="icofont-headphone"></i> <span>Contact</span></a></li>
       </ul>
@@ -231,94 +232,84 @@
       </div>
     </section><!-- Services Ends -->
 
-    <!-- Recent Blogs Start -->
-    <section id="recentblogs" class="recentblogs">
+    <!-- ======= Gallery Section ======= -->
+    <section id="gallery" class="gallery">
       <div class="container">
+
         <div class="section-title" data-aos="fade-down" data-aos-easing="linear" data-aos-duration="100">
-          <h2>Recent Medical News</h2>
+          <h2>Check Our Gallery</h2>
         </div>
-        <div class="owl-carousel recentblogs-carousel">
-          <div class="recentblogs-item" data-aos="fade-up" data-aos-easing="linear" data-aos-duration="200">
-            <div class="recentblogs-imgbox">
-              <img src="{{asset('assets/img/medical/dentcare/blog/blog-1.jpg')}}" class="img-fluid" alt="">
-              <div class="recentblogs-date">
-                <h4>01</h4>
-                <small>Jun</small>
-              </div>
-            </div>
-            <div class="recentblogs-author">
-              <div class="recentblogs-authleft">
-                <img src="{{asset('assets/img/medical/dentcare/blog/comments-1.jpg')}}" class="img-fluid" alt="">
-                <a class="text-muted ml-2" href="">John Doe</a>
-              </div>
-              <div class="recentblogs-authcenter">
-                <i class="far fa-bookmark"></i>
-                <a class="text-muted ml-2" href="">Web Design</a>
-              </div>
-            </div>
-            <div class="recentblogs-content">
-              <h4>Ut enim ad minim veniam</h4>
-              <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam</p>
-            </div>
-            <div class="recentblogs-readmore">
-              <a href="">Full Story</a>
+
+        <div class="row no-gutters" data-aos="fade-left">
+
+          <div class="col-lg-3 col-md-4">
+            <div class="gallery-item" data-aos="zoom-in" data-aos-delay="100">
+              <a href="{{asset('assets/img/medical/dento/gallery/gallery-1.jpg')}}" class="venobox" data-gall="gallery-item">
+                <img src="{{asset('assets/img/medical/dento/gallery/gallery-1.jpg')}}" alt="" class="img-fluid">
+              </a>
             </div>
           </div>
-          <div class="recentblogs-item" data-aos="fade-up" data-aos-easing="linear" data-aos-duration="200">
-            <div class="recentblogs-imgbox">
-              <img src="{{asset('assets/img/medical/dentcare/blog/blog-2.jpg')}}" class="img-fluid" alt="">
-              <div class="recentblogs-date">
-                <h4>01</h4>
-                <small>Jun</small>
-              </div>
-            </div>
-            <div class="recentblogs-author">
-              <div class="recentblogs-authleft">
-                <img src="{{asset('assets/img/medical/dentcare/blog/comments-2.jpg')}}" class="img-fluid" alt="">
-                <a class="text-muted ml-2" href="">John Doe</a>
-              </div>
-              <div class="recentblogs-authcenter">
-                <i class="far fa-bookmark"></i>
-                <a class="text-muted ml-2" href="">Web Design</a>
-              </div>
-            </div>
-            <div class="recentblogs-content">
-              <h4>Ut enim ad minim veniam</h4>
-              <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam</p>
-            </div>
-            <div class="recentblogs-readmore">
-              <a href="">Full Story</a>
+
+          <div class="col-lg-3 col-md-4">
+            <div class="gallery-item" data-aos="zoom-in" data-aos-delay="150">
+              <a href="{{asset('assets/img/medical/dento/gallery/gallery-2.jpg')}}" class="venobox" data-gall="gallery-item">
+                <img src="{{asset('assets/img/medical/dento/gallery/gallery-2.jpg')}}" alt="" class="img-fluid">
+              </a>
             </div>
           </div>
-          <div class="recentblogs-item" data-aos="fade-up" data-aos-easing="linear" data-aos-duration="200">
-            <div class="recentblogs-imgbox">
-              <img src="{{asset('assets/img/medical/dentcare/blog/blog-3.jpg')}}" class="img-fluid" alt="">
-              <div class="recentblogs-date">
-                <h4>01</h4>
-                <small>Jun</small>
-              </div>
-            </div>
-            <div class="recentblogs-author">
-              <div class="recentblogs-authleft">
-                <img src="{{asset('assets/img/medical/dentcare/blog/comments-3.jpg')}}" class="img-fluid" alt="">
-                <a class="text-muted ml-2" href="">John Doe</a>
-              </div>
-              <div class="recentblogs-authcenter">
-                <i class="far fa-bookmark"></i>
-                <a class="text-muted ml-2" href="">Web Design</a>
-              </div>
-            </div>
-            <div class="recentblogs-content">
-              <h4>Ut enim ad minim veniam</h4>
-              <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam</p>
-            </div>
-            <div class="recentblogs-readmore">
-              <a href="">Full Story</a>
+
+          <div class="col-lg-3 col-md-4">
+            <div class="gallery-item" data-aos="zoom-in" data-aos-delay="200">
+              <a href="{{asset('assets/img/medical/dento/gallery/gallery-3.jpg')}}" class="venobox" data-gall="gallery-item">
+                <img src="{{asset('assets/img/medical/dento/gallery/gallery-3.jpg')}}" alt="" class="img-fluid">
+              </a>
             </div>
           </div>
+
+          <div class="col-lg-3 col-md-4">
+            <div class="gallery-item" data-aos="zoom-in" data-aos-delay="250">
+              <a href="{{asset('assets/img/medical/dento/gallery/gallery-4.jpg')}}" class="venobox" data-gall="gallery-item">
+                <img src="{{asset('assets/img/medical/dento/gallery/gallery-4.jpg')}}" alt="" class="img-fluid">
+              </a>
+            </div>
+          </div>
+
+          <div class="col-lg-3 col-md-4">
+            <div class="gallery-item" data-aos="zoom-in" data-aos-delay="300">
+              <a href="{{asset('assets/img/medical/dento/gallery/gallery-5.jpg')}}" class="venobox" data-gall="gallery-item">
+                <img src="{{asset('assets/img/medical/dento/gallery/gallery-5.jpg')}}" alt="" class="img-fluid">
+              </a>
+            </div>
+          </div>
+
+          <div class="col-lg-3 col-md-4">
+            <div class="gallery-item" data-aos="zoom-in" data-aos-delay="350">
+              <a href="{{asset('assets/img/medical/dento/gallery/gallery-6.jpg')}}" class="venobox" data-gall="gallery-item">
+                <img src="{{asset('assets/img/medical/dento/gallery/gallery-6.jpg')}}" alt="" class="img-fluid">
+              </a>
+            </div>
+          </div>
+
+          <div class="col-lg-3 col-md-4">
+            <div class="gallery-item" data-aos="zoom-in" data-aos-delay="400">
+              <a href="{{asset('assets/img/medical/dento/gallery/gallery-7.jpg')}}" class="venobox" data-gall="gallery-item">
+                <img src="{{asset('assets/img/medical/dento/gallery/gallery-7.jpg')}}" alt="" class="img-fluid">
+              </a>
+            </div>
+          </div>
+
+          <div class="col-lg-3 col-md-4">
+            <div class="gallery-item" data-aos="zoom-in" data-aos-delay="450">
+              <a href="{{asset('assets/img/medical/dento/gallery/gallery-8.jpg')}}" class="venobox" data-gall="gallery-item">
+                <img src="{{asset('assets/img/medical/dento/gallery/gallery-8.jpg')}}" alt="" class="img-fluid">
+              </a>
+            </div>
+          </div>
+
         </div>
+
       </div>
-    </section><!-- Recent Blogs Ends -->
+    </section><!-- End Gallery Section -->
 
     <!-- Doctors Start -->
     <section id="doctors" class="doctors">
@@ -377,38 +368,7 @@
 
         <div class="row mt-1">
 
-          <div class="col-lg-8 mt-5 mt-lg-0">
-
-            <form action="forms/contact.php" method="post" role="form" class="php-email-form" data-aos="fade-right" data-aos-easing="linear" data-aos-duration="200">
-              <div class="form-row">
-                <div class="col-md-6 form-group">
-                  <input type="text" name="name" class="form-control" id="name" placeholder="Your Name" data-rule="minlen:4" data-msg="Please enter at least 4 chars" />
-                  <div class="validate"></div>
-                </div>
-                <div class="col-md-6 form-group">
-                  <input type="email" class="form-control" name="email" id="email" placeholder="Your Email" data-rule="email" data-msg="Please enter a valid email" />
-                  <div class="validate"></div>
-                </div>
-              </div>
-              <div class="form-group">
-                <input type="text" class="form-control" name="subject" id="subject" placeholder="Subject" data-rule="minlen:4" data-msg="Please enter at least 8 chars of subject" />
-                <div class="validate"></div>
-              </div>
-              <div class="form-group">
-                <textarea class="form-control" name="message" rows="5" data-rule="required" data-msg="Please write something for us" placeholder="Message"></textarea>
-                <div class="validate"></div>
-              </div>
-              <div class="mb-3">
-                <div class="loading">Loading</div>
-                <div class="error-message"></div>
-                <div class="sent-message">Your message has been sent. Thank you!</div>
-              </div>
-              <div class="text-center"><button type="submit">Send Message</button></div>
-            </form>
-
-          </div>
-
-          <div class="col-lg-4">
+          <div class="col-lg-12">
             <div class="info" data-aos="fade-down" data-aos-easing="linear" data-aos-duration="200">
               <div class="address">
                 <i class="fa fa-location-arrow"></i>
@@ -484,6 +444,7 @@
   <script src="{{asset('assets/vendor/jquery/jquery.min.js')}}"></script>
   <script src="{{asset('assets/vendor/bootstrap/js/bootstrap.bundle.min.js')}}"></script>
   <script src="{{asset('assets/vendor/jquery.easing/jquery.easing.min.js')}}"></script>
+  <script src="{{asset('assets/vendor/venobox/venobox.min.js')}}"></script>
   <script src="{{asset('assets/vendor/owl.carousel/owl.carousel.min.js')}}"></script>
   <script src="{{asset('assets/vendor/typed.js/typed.min.js')}}"></script>
   <script src="{{asset('assets/vendor/aos/aos.js')}}"></script>

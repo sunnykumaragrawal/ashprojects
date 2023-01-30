@@ -168,4 +168,9 @@
       $(".offcanvas-menu-overlay").removeClass("active");
   });
 
+  // Initiate the venobox plugin
+  $(window).on('load', function() {
+    $('.venobox').venobox();
+  });
+
 })(jQuery);

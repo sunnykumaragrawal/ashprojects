@@ -183,4 +183,9 @@
     return false;
   });
 
+  // Initiate the venobox plugin
+  $(window).on('load', function() {
+    $('.venobox').venobox();
+  });
+
 })(jQuery);

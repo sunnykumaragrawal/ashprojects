@@ -12,6 +12,7 @@
   <!-- Vendor CSS Files -->
   <link href="{{asset('assets/vendor/bootstrap/css/bootstrap.min.css')}}" rel="stylesheet">
   <link href="{{asset('assets/vendor/boxicons/css/boxicons.min.css')}}" rel="stylesheet">
+  <link href="{{asset('assets/vendor/venobox/venobox.css')}}" rel="stylesheet">
   <link href="{{asset('assets/vendor/owl.carousel/assets/owl.carousel.min.css')}}" rel="stylesheet">
   <link href="{{asset('assets/vendor/icofont/icofont.min.css')}}" rel="stylesheet">
   <link href="{{asset('assets/vendor/aos/aos.css')}}" rel="stylesheet">
@@ -41,7 +42,7 @@
           <li class="col-6" id="nav1"><a href="#header" data-toggle="tooltip" title="Home"><img src="{{asset('assets/img/medical/chiropractor/nav/icon1.png')}}" class="img-fluid"> <span>Home</span></a></li>
           <li class="col-6" id="nav2"><a href="#aboutus" data-toggle="tooltip" title="About Us"><img src="{{asset('assets/img/medical/chiropractor/nav/icon2.png')}}" class="img-fluid"> <span>About Us</span></a></li>
           <li class="col-6" id="nav4"><a href="#services" data-toggle="tooltip" title="Services"><img src="{{asset('assets/img/medical/chiropractor/nav/icon4.png')}}" class="img-fluid"> <span>Services</span></a></li>
-          <li class="col-6" id="nav6"><a href="#recentblogs" data-toggle="tooltip" title="News"><img src="{{asset('assets/img/medical/chiropractor/nav/icon6.png')}}" class="img-fluid"> <span>News</span></a></li>
+          <li class="col-6" id="nav6"><a href="#gallery" data-toggle="tooltip" title="Gallery"><img src="{{asset('assets/img/medical/chiropractor/nav/gallery.png')}}" class="img-fluid"> <span>Gallery</span></a></li>
           <li class="col-6" id="nav7"><a href="#doctors" data-toggle="tooltip" title="Doctors"><img src="{{asset('assets/img/medical/chiropractor/nav/icon7.png')}}" class="img-fluid"> <span>Doctors</span></a></li>
           <li class="col-6" id="nav8"><a href="#contact" data-toggle="tooltip" title="Contact Us"><img src="{{asset('assets/img/medical/chiropractor/nav/icon8.png')}}" class="img-fluid"> <span>Contact Us</span></a></li>
         </ul>
@@ -248,155 +249,87 @@
        </div>
      </section><!-- Service Section End -->
 
-     <section id="recentblogs" class="recentblogs">
-       <div class="container mytitle">
+     <!-- ======= Gallery Section ======= -->
+     <section id="gallery" class="gallery">
+       <div class="container">
+
          <div class="row">
            <div class="col-lg-7 section-title order-lg-1 order-2" data-aos="fade-right">
-             <span>Blogs</span>
-             <h2>Recent Medical News</h2>
+             <span>Gallery</span>
+             <h2>Check Our Gallery</h2>
            </div>
          </div>
+
+         <div class="row no-gutters mt-4" data-aos="fade-left">
+
+           <div class="col-lg-3 col-md-4">
+             <div class="gallery-item" data-aos="zoom-in" data-aos-delay="100">
+               <a href="{{asset('assets/img/medical/dento/gallery/gallery-1.jpg')}}" class="venobox" data-gall="gallery-item">
+                 <img src="{{asset('assets/img/medical/dento/gallery/gallery-1.jpg')}}" alt="" class="img-fluid">
+               </a>
+             </div>
+           </div>
+
+           <div class="col-lg-3 col-md-4">
+             <div class="gallery-item" data-aos="zoom-in" data-aos-delay="150">
+               <a href="{{asset('assets/img/medical/dento/gallery/gallery-2.jpg')}}" class="venobox" data-gall="gallery-item">
+                 <img src="{{asset('assets/img/medical/dento/gallery/gallery-2.jpg')}}" alt="" class="img-fluid">
+               </a>
+             </div>
+           </div>
+
+           <div class="col-lg-3 col-md-4">
+             <div class="gallery-item" data-aos="zoom-in" data-aos-delay="200">
+               <a href="{{asset('assets/img/medical/dento/gallery/gallery-3.jpg')}}" class="venobox" data-gall="gallery-item">
+                 <img src="{{asset('assets/img/medical/dento/gallery/gallery-3.jpg')}}" alt="" class="img-fluid">
+               </a>
+             </div>
+           </div>
+
+           <div class="col-lg-3 col-md-4">
+             <div class="gallery-item" data-aos="zoom-in" data-aos-delay="250">
+               <a href="{{asset('assets/img/medical/dento/gallery/gallery-4.jpg')}}" class="venobox" data-gall="gallery-item">
+                 <img src="{{asset('assets/img/medical/dento/gallery/gallery-4.jpg')}}" alt="" class="img-fluid">
+               </a>
+             </div>
+           </div>
+
+           <div class="col-lg-3 col-md-4">
+             <div class="gallery-item" data-aos="zoom-in" data-aos-delay="300">
+               <a href="{{asset('assets/img/medical/dento/gallery/gallery-5.jpg')}}" class="venobox" data-gall="gallery-item">
+                 <img src="{{asset('assets/img/medical/dento/gallery/gallery-5.jpg')}}" alt="" class="img-fluid">
+               </a>
+             </div>
+           </div>
+
+           <div class="col-lg-3 col-md-4">
+             <div class="gallery-item" data-aos="zoom-in" data-aos-delay="350">
+               <a href="{{asset('assets/img/medical/dento/gallery/gallery-6.jpg')}}" class="venobox" data-gall="gallery-item">
+                 <img src="{{asset('assets/img/medical/dento/gallery/gallery-6.jpg')}}" alt="" class="img-fluid">
+               </a>
+             </div>
+           </div>
+
+           <div class="col-lg-3 col-md-4">
+             <div class="gallery-item" data-aos="zoom-in" data-aos-delay="400">
+               <a href="{{asset('assets/img/medical/dento/gallery/gallery-7.jpg')}}" class="venobox" data-gall="gallery-item">
+                 <img src="{{asset('assets/img/medical/dento/gallery/gallery-7.jpg')}}" alt="" class="img-fluid">
+               </a>
+             </div>
+           </div>
+
+           <div class="col-lg-3 col-md-4">
+             <div class="gallery-item" data-aos="zoom-in" data-aos-delay="450">
+               <a href="{{asset('assets/img/medical/dento/gallery/gallery-8.jpg')}}" class="venobox" data-gall="gallery-item">
+                 <img src="{{asset('assets/img/medical/dento/gallery/gallery-8.jpg')}}" alt="" class="img-fluid">
+               </a>
+             </div>
+           </div>
+
+         </div>
+
        </div>
-       <div class="container">
-         <div class="owl-carousel recentblogs-carousel">
-          <div class="recentblogs-item" data-aos="zoom-in" data-aos-delay="100">
-           <div class="row recentblogs-block">
-             <div class="col-lg-6 recentblogs-img order-lg-2">
-               <img src="{{asset('assets/img/medical/chiropractor/blog/blog-1.jpg')}}" class="img-fluid">
-             </div>
-             <div class="col-lg-6 recentblogs-content order-lg-1">
-               <h2>Ut enim ad minim veniam</h2>
-               <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
-               <div class="author-box">
-                 <div class="d-flex mb-4">
-                   <div class="mr-3">
-                     <img src="{{asset('assets/img/medical/chiropractor/blog/comments-1.jpg')}}" class="img-fluid rounded-circle">
-                   </div>
-                   <div class="mr-auto text-black">
-                     <strong class="font-weight-bold mb-0">Grey Simpson</strong> <br>
-                     Medical Expert
-                   </div>
-                 </div>
-               </div>
-             </div>
-             <div class="col-lg-12 pt-3 order-lg-3">
-               <div class="row">
-                 <div class="col-md-3 col-6 rbsocial-box">
-                   <i class="icofont-facebook"></i>
-                   <p>5201 Likes</p>
-                 </div>
-                 <div class="col-md-3 col-6 rbsocial-box">
-                   <i class="icofont-twitter"></i>
-                   <p>2451 Followers</p>
-                 </div>
-                 <div class="col-md-3 col-6 rbsocial-box">
-                   <i class="icofont-instagram"></i>
-                   <p>3254 Followers</p>
-                 </div>
-                 <div class="col-md-3 col-6 rbsocial-box">
-                   <i class="icofont-linkedin"></i>
-                   <p>2945 Connects</p>
-                 </div>
-               </div>
-             </div>
-           </div>
-           <div class="row recentblogs-btn">
-            <a href="" class="template-btn">Read More</a>
-           </div>
-         </div>
-          <div class="recentblogs-item" data-aos="zoom-in" data-aos-delay="100">
-           <div class="row recentblogs-block">
-             <div class="col-lg-6 recentblogs-img order-lg-2">
-               <img src="{{asset('assets/img/medical/chiropractor/blog/blog-2.jpg')}}" class="img-fluid">
-             </div>
-             <div class="col-lg-6 recentblogs-content order-lg-1">
-               <h2>Ut enim ad minim veniam</h2>
-               <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
-               <div class="author-box">
-                 <div class="d-flex mb-4">
-                   <div class="mr-3">
-                     <img src="{{asset('assets/img/medical/chiropractor/blog/comments-2.jpg')}}" class="img-fluid rounded-circle">
-                   </div>
-                   <div class="mr-auto text-black">
-                     <strong class="font-weight-bold mb-0">Grey Simpson</strong> <br>
-                     Medical Expert
-                   </div>
-                 </div>
-               </div>
-             </div>
-             <div class="col-lg-12 pt-3 order-lg-3">
-               <div class="row">
-                 <div class="col-md-3 col-6 rbsocial-box">
-                   <i class="icofont-facebook"></i>
-                   <p>5201 Likes</p>
-                 </div>
-                 <div class="col-md-3 col-6 rbsocial-box">
-                   <i class="icofont-twitter"></i>
-                   <p>2451 Followers</p>
-                 </div>
-                 <div class="col-md-3 col-6 rbsocial-box">
-                   <i class="icofont-instagram"></i>
-                   <p>3254 Followers</p>
-                 </div>
-                 <div class="col-md-3 col-6 rbsocial-box">
-                   <i class="icofont-linkedin"></i>
-                   <p>2945 Connects</p>
-                 </div>
-               </div>
-             </div>
-           </div> 
-           <div class="row recentblogs-btn">
-            <a href="" class="template-btn">Read More</a>
-           </div>
-         </div>
-          <div class="recentblogs-item" data-aos="zoom-in" data-aos-delay="100">
-           <div class="row recentblogs-block">
-             <div class="col-lg-6 recentblogs-img order-lg-2">
-               <img src="{{asset('assets/img/medical/chiropractor/blog/blog-3.jpg')}}" class="img-fluid">
-             </div>
-             <div class="col-lg-6 recentblogs-content order-lg-1">
-               <h2>Ut enim ad minim veniam</h2>
-               <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
-               <div class="author-box">
-                 <div class="d-flex mb-4">
-                   <div class="mr-3">
-                     <img src="{{asset('assets/img/medical/chiropractor/blog/comments-3.jpg')}}" class="img-fluid rounded-circle">
-                   </div>
-                   <div class="mr-auto text-black">
-                     <strong class="font-weight-bold mb-0">Grey Simpson</strong> <br>
-                     Medical Expert
-                   </div>
-                 </div>
-               </div>
-             </div>
-             <div class="col-lg-12 pt-3 order-lg-3">
-               <div class="row">
-                 <div class="col-md-3 col-6 rbsocial-box">
-                   <i class="icofont-facebook"></i>
-                   <p>5201 Likes</p>
-                 </div>
-                 <div class="col-md-3 col-6 rbsocial-box">
-                   <i class="icofont-twitter"></i>
-                   <p>2451 Followers</p>
-                 </div>
-                 <div class="col-md-3 col-6 rbsocial-box">
-                   <i class="icofont-instagram"></i>
-                   <p>3254 Followers</p>
-                 </div>
-                 <div class="col-md-3 col-6 rbsocial-box">
-                   <i class="icofont-linkedin"></i>
-                   <p>2945 Connects</p>
-                 </div>
-               </div>
-             </div>
-           </div>
-           <div class="row recentblogs-btn">
-            <a href="" class="template-btn">Read More</a>
-           </div>  
-         </div> 
-         </div>
-       </div>
-     </section>
+     </section><!-- End Gallery Section -->
 
      <!-- Team Section Begin -->
      <section id="doctors">
@@ -487,64 +420,27 @@
        <div class="container">
 
          <div class="row">
-
-           <div class="col-lg-6">
-
-             <div class="row">
-               <div class="col-lg-12 col-md-12" id="address" data-aos="zoom-in" data-aos-delay="100">
-                 <div class="info-box">
-                   <i class="bx bx-map"></i>
-                   <h3>Address</h3>
-                   <p>New Office</p>
-                 </div>
-               </div>
-               <div class="col-lg-7 col-md-6" id="email" data-aos="zoom-in" data-aos-delay="200">
-                 <div class="info-box">
-                   <i class="bx bx-envelope"></i>
-                   <h3>Email</h3>
-                   <p>contact@gmail.com</p>
-                 </div>
-               </div>
-               <div class="col-lg-5 col-md-6" id="phone" data-aos="zoom-in" data-aos-delay="300">
-                 <div class="info-box">
-                   <i class="bx bx-phone-call"></i>
-                   <h3>Phone</h3>
-                   <p>xxx-xxx-xxxx</p>
-                 </div>
-               </div>
+           <div class="col-lg-4 col-md-12" id="address" data-aos="zoom-in" data-aos-delay="100">
+             <div class="info-box">
+               <i class="bx bx-map"></i>
+               <h3>Address</h3>
+               <p>New Office</p>
              </div>
-
            </div>
-
-           <div class="col-lg-6 mt-4 mt-lg-0" data-aos="fade-left" data-aos-delay="100">
-             <form action="forms/contact.php" method="post" role="form" class="php-email-form">
-               <div class="form-row">
-                 <div class="col-md-6 form-group">
-                   <input name="name" class="form-control" id="name" placeholder="Your Name" data-rule="minlen:4" data-msg="Please enter at least 4 chars" />
-                   <div class="validate"></div>
-                 </div>
-                 <div class="col-md-6 form-group">
-                   <input class="form-control" name="email" id="email" placeholder="Your Email" data-rule="email" data-msg="Please enter a valid email" />
-                   <div class="validate"></div>
-                 </div>
-               </div>
-               <div class="form-group">
-                 <input class="form-control" name="subject" id="subject" placeholder="Subject" data-rule="minlen:4" data-msg="Please enter at least 8 chars of subject" />
-                 <div class="validate"></div>
-               </div>
-               <div class="form-group">
-                 <textarea class="form-control" name="message" rows="5" data-rule="required" data-msg="Please write something for us" placeholder="Message"></textarea>
-                 <div class="validate"></div>
-               </div>
-               <div class="mb-3">
-                 <div class="loading">Loading</div>
-                 <div class="error-message"></div>
-                 <div class="sent-message">Your message has been sent. Thank you!</div>
-               </div>
-               <div class="text-center"><button type="submit">Send Message</button></div>
-             </form>
+           <div class="col-lg-4 col-md-6" id="email" data-aos="zoom-in" data-aos-delay="200">
+             <div class="info-box">
+               <i class="bx bx-envelope"></i>
+               <h3>Email</h3>
+               <p>contact@gmail.com</p>
+             </div>
            </div>
-
+           <div class="col-lg-4 col-md-6" id="phone" data-aos="zoom-in" data-aos-delay="300">
+             <div class="info-box">
+               <i class="bx bx-phone-call"></i>
+               <h3>Phone</h3>
+               <p>xxx-xxx-xxxx</p>
+             </div>
+           </div>
          </div>
 
        </div>
@@ -589,9 +485,7 @@
         <div class="row my-footer">
           <div class="col-lg-6 footer-newsletter">
             <h4>Stay Updated</h4>
-            <form action="" method="post">
-              <input type="email" name="email"><input type="submit" value="Subscribe">
-            </form>
+            
           </div>
           <div class="col-lg-6">
             <h4>Social Networks</h4>
@@ -688,6 +582,7 @@
   <script src="{{asset('assets/vendor/jquery/jquery.min.js')}}"></script>
   <script src="{{asset('assets/vendor/bootstrap/js/bootstrap.bundle.min.js')}}"></script>
   <script src="{{asset('assets/vendor/jquery.easing/jquery.easing.min.js')}}"></script>
+  <script src="{{asset('assets/vendor/venobox/venobox.min.js')}}"></script>
   <script src="{{asset('assets/vendor/owl.carousel/owl.carousel.min.js')}}"></script>
   <script src="{{asset('assets/vendor/aos/aos.js')}}"></script>
 

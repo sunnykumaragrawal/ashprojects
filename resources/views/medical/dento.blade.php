@@ -12,6 +12,7 @@
   <link href="{{asset('assets/vendor/bootstrap/css/bootstrap.min.css')}}" rel="stylesheet">
   <link href="{{asset('assets/vendor/boxicons/css/boxicons.min.css')}}" rel="stylesheet">
   <link href="{{asset('assets/vendor/icofont/icofont.min.css')}}" rel="stylesheet">
+  <link href="{{asset('assets/vendor/venobox/venobox.css')}}" rel="stylesheet">
   <link href="{{asset('assets/vendor/owl.carousel/assets/owl.carousel.min.css')}}" rel="stylesheet">
   <link href="{{asset('assets/vendor/aos/aos.css')}}" rel="stylesheet">
 
@@ -37,9 +38,8 @@
           <li class="active"><a href="#hero"><img src="{{asset('assets/img/medical/dento/nav/home.png')}}" class="img-fluid"> <span>Home</span></a></li>
           <li><a href="#aboutus"><img src="{{asset('assets/img/medical/dento/nav/about.png')}}" class="img-fluid"> <span>About</span></a></li>
           <li><a href="#services"><img src="{{asset('assets/img/medical/dento/nav/service.png')}}" class="img-fluid"> <span>Services</span></a></li>
-          <li><a href="#pricing"><img src="{{asset('assets/img/medical/dento/nav/price.png')}}" class="img-fluid"> <span>Pricing</span></a></li>
+          <li><a href="#gallery"><img src="{{asset('assets/img/medical/dento/nav/gallery.png')}}" class="img-fluid"> <span>Gallery</span></a></li>
           <li><a href="#doctors"><img src="{{asset('assets/img/medical/dento/nav/doctor.png')}}" class="img-fluid"> <span>Doctors</span></a></li>
-          <li><a href="#faq"><img src="{{asset('assets/img/medical/dento/nav/faq.png')}}" class="img-fluid"> <span>Faqs</span></a></li>
           <li><a href="#contactus"><img src="{{asset('assets/img/medical/dento/nav/contact.png')}}" class="img-fluid"> <span>Contact</span></a></li>
         </ul>
       </nav><!-- .nav-menu -->
@@ -67,14 +67,6 @@
               <div class="hero-btns">
                 <a href="#services" class="herobtn1">Our Services</a>
                 <a href="#aboutus" class="herobtn2">Learn More</a>
-              </div>
-            </div>
-            <div class="hero-item">
-              <h1>Get An Appointment</h1>
-              <h2>Cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</h2>
-              <div class="hero-btns">
-                <a href="#doctors" class="herobtn1">Doctors</a>
-                <a href="" class="herobtn2">Appointment</a>
               </div>
             </div>
           </div>
@@ -287,52 +279,84 @@
       </div>
     </section>
 
-    <section id="pricing" class="pricing">
+    <!-- ======= Gallery Section ======= -->
+    <section id="gallery" class="gallery">
       <div class="container">
+
         <div class="section-title" data-aos="flip-up">
-          <h2>Choose Your Plan</h2>
+          <h2>Check Our Gallery</h2>
         </div>
-        <div class="row">
 
-          <div class="col-lg-4 col-md-6" data-aos="flip-down" data-aos-delay="100">
-            <div class="pricing-item">
-              <h4>Basic</h4>
-              <h3><sup>$</sup>49.00</h3>
-              <ul>
-                <li>Exam, X-Rays, Cleaning</li>
-                <li>(D0150, D0220, D0230, D0274)</li>
-                <li>Hurry, limited time offers</li>
-              </ul>
+        <div class="row no-gutters" data-aos="fade-left">
+
+          <div class="col-lg-3 col-md-4">
+            <div class="gallery-item" data-aos="zoom-in" data-aos-delay="100">
+              <a href="{{asset('assets/img/medical/dento/gallery/gallery-1.jpg')}}" class="venobox" data-gall="gallery-item">
+                <img src="{{asset('assets/img/medical/dento/gallery/gallery-1.jpg')}}" alt="" class="img-fluid">
+              </a>
             </div>
           </div>
 
-          <div class="col-lg-4 col-md-6" data-aos="flip-down" data-aos-delay="200">
-            <div class="pricing-item">
-              <h4>Premium</h4>
-              <h3><sup>$</sup>149.00</h3>
-              <ul>
-                <li>Free Dental Implant</li>
-                <li>(D0150, D0220, D0230, D0274)</li>
-                <li>Hurry, limited time offers</li>
-              </ul>
+          <div class="col-lg-3 col-md-4">
+            <div class="gallery-item" data-aos="zoom-in" data-aos-delay="150">
+              <a href="{{asset('assets/img/medical/dento/gallery/gallery-2.jpg')}}" class="venobox" data-gall="gallery-item">
+                <img src="{{asset('assets/img/medical/dento/gallery/gallery-2.jpg')}}" alt="" class="img-fluid">
+              </a>
             </div>
           </div>
 
-          <div class="col-lg-4 col-md-6" data-aos="flip-down" data-aos-delay="300">
-            <div class="pricing-item">
-              <h4>Advanced</h4>
-              <h3><sup>$</sup>249.00</h3>
-              <ul>
-                <li>Free Consultation</li>
-                <li>Hurry up</li>
-                <li>limited time offers</li>
-              </ul>
+          <div class="col-lg-3 col-md-4">
+            <div class="gallery-item" data-aos="zoom-in" data-aos-delay="200">
+              <a href="{{asset('assets/img/medical/dento/gallery/gallery-3.jpg')}}" class="venobox" data-gall="gallery-item">
+                <img src="{{asset('assets/img/medical/dento/gallery/gallery-3.jpg')}}" alt="" class="img-fluid">
+              </a>
+            </div>
+          </div>
+
+          <div class="col-lg-3 col-md-4">
+            <div class="gallery-item" data-aos="zoom-in" data-aos-delay="250">
+              <a href="{{asset('assets/img/medical/dento/gallery/gallery-4.jpg')}}" class="venobox" data-gall="gallery-item">
+                <img src="{{asset('assets/img/medical/dento/gallery/gallery-4.jpg')}}" alt="" class="img-fluid">
+              </a>
+            </div>
+          </div>
+
+          <div class="col-lg-3 col-md-4">
+            <div class="gallery-item" data-aos="zoom-in" data-aos-delay="300">
+              <a href="{{asset('assets/img/medical/dento/gallery/gallery-5.jpg')}}" class="venobox" data-gall="gallery-item">
+                <img src="{{asset('assets/img/medical/dento/gallery/gallery-5.jpg')}}" alt="" class="img-fluid">
+              </a>
+            </div>
+          </div>
+
+          <div class="col-lg-3 col-md-4">
+            <div class="gallery-item" data-aos="zoom-in" data-aos-delay="350">
+              <a href="{{asset('assets/img/medical/dento/gallery/gallery-6.jpg')}}" class="venobox" data-gall="gallery-item">
+                <img src="{{asset('assets/img/medical/dento/gallery/gallery-6.jpg')}}" alt="" class="img-fluid">
+              </a>
+            </div>
+          </div>
+
+          <div class="col-lg-3 col-md-4">
+            <div class="gallery-item" data-aos="zoom-in" data-aos-delay="400">
+              <a href="{{asset('assets/img/medical/dento/gallery/gallery-7.jpg')}}" class="venobox" data-gall="gallery-item">
+                <img src="{{asset('assets/img/medical/dento/gallery/gallery-7.jpg')}}" alt="" class="img-fluid">
+              </a>
+            </div>
+          </div>
+
+          <div class="col-lg-3 col-md-4">
+            <div class="gallery-item" data-aos="zoom-in" data-aos-delay="450">
+              <a href="{{asset('assets/img/medical/dento/gallery/gallery-8.jpg')}}" class="venobox" data-gall="gallery-item">
+                <img src="{{asset('assets/img/medical/dento/gallery/gallery-8.jpg')}}" alt="" class="img-fluid">
+              </a>
             </div>
           </div>
 
         </div>
+
       </div>
-    </section>
+    </section><!-- End Gallery Section -->
 
     <section id="doctors" class="doctors">
       <div class="container">
@@ -403,44 +427,6 @@
                 <span>Cosmetic Dentist</span>
               </div>
             </div>
-          </div>
-        </div>
-      </div>
-    </section>
-
-    <section id="faq">
-      <div class="container">
-        <div class="section-title" data-aos="flip-up">
-          <h2>Frequently Asked Questions</h2>
-        </div>
-        <div class="row accordion">
-          <div class="col-lg-12" data-aos="flip-down" data-aos-delay="100">
-            <label class="faq-item">
-              <input type="checkbox" name="accordion">
-              <div class="faq-heading"><img src="{{asset('assets/img/medical/dento/faq.png')}}" class="img-fluid"> What is an dentist?</div>
-              <div class="faq-desc"><p>Quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit.</p></div>
-            </label>
-          </div>
-          <div class="col-lg-12" data-aos="flip-down" data-aos-delay="200">
-            <label class="faq-item">
-              <input type="checkbox" name="accordion">
-              <div class="faq-heading"><img src="{{asset('assets/img/medical/dento/faq.png')}}" class="img-fluid"> What does a dentist do?</div>
-              <div class="faq-desc"><p>Quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit.</p></div>
-            </label>
-          </div>
-          <div class="col-lg-12" data-aos="flip-down" data-aos-delay="300">
-            <label class="faq-item">
-              <input type="checkbox" name="accordion">
-              <div class="faq-heading"><img src="{{asset('assets/img/medical/dento/faq.png')}}" class="img-fluid"> When to see a dentist doctor?</div>
-              <div class="faq-desc"><p>Quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit.</p></div>
-            </label>
-          </div>
-          <div class="col-lg-12" data-aos="flip-down" data-aos-delay="400">
-            <label class="faq-item">
-              <input type="checkbox" name="accordion">
-              <div class="faq-heading"><img src="{{asset('assets/img/medical/dento/faq.png')}}" class="img-fluid"> Is a dentist a family doctor?</div>
-              <div class="faq-desc"><p>Quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit.</p></div>
-            </label>
           </div>
         </div>
       </div>
@@ -544,6 +530,7 @@
   <script src="{{asset('assets/vendor/jquery/jquery.min.js')}}"></script>
   <script src="{{asset('assets/vendor/bootstrap/js/bootstrap.bundle.min.js')}}"></script>
   <script src="{{asset('assets/vendor/jquery.easing/jquery.easing.min.js')}}"></script>
+  <script src="{{asset('assets/vendor/venobox/venobox.min.js')}}"></script>
   <script src="{{asset('assets/vendor/owl.carousel/owl.carousel.min.js')}}"></script>
   <script src="{{asset('assets/vendor/aos/aos.js')}}"></script>
 

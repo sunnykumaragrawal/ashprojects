@@ -13,6 +13,7 @@
   <link href="{{asset('assets/vendor/bootstrap/css/bootstrap.min.css')}}" rel="stylesheet">
   <link href="{{asset('assets/vendor/bootstrap-icons/bootstrap-icons.css')}}" rel="stylesheet">
   <link href="{{asset('assets/vendor/icofont/icofont.min.css')}}" rel="stylesheet">
+  <link href="{{asset('assets/vendor/venobox/venobox.css')}}" rel="stylesheet">
   <link href="{{asset('assets/vendor/owl.carousel/assets/owl.carousel.min.css')}}" rel="stylesheet">
   <link href="{{asset('assets/vendor/aos/aos.css')}}" rel="stylesheet">
 
@@ -46,7 +47,7 @@
               <a class="col-md-4 col-6" href="#hero"><img src="{{asset('assets/img/medical/dentista/nav/icon1.png')}}" class="img-fluid"> <span>Home</span></a>
               <a class="col-md-4 col-6" href="#aboutus"><img src="{{asset('assets/img/medical/dentista/nav/icon2.png')}}" class="img-fluid"> <span>Why Us</span></a>
               <a class="col-md-4 col-6" href="#services"><img src="{{asset('assets/img/medical/dentista/nav/icon4.png')}}" class="img-fluid"> <span>Services</span></a>
-              <a class="col-md-4 col-6" href="#recentblogs"><img src="{{asset('assets/img/medical/dentista/nav/icon6.png')}}" class="img-fluid"> <span>News</span></a>
+              <a class="col-md-4 col-6" href="#gallery"><img src="{{asset('assets/img/medical/dentista/nav/gallery.png')}}" class="img-fluid"> <span>Gallery</span></a>
               <a class="col-md-4 col-6" href="#doctors"><img src="{{asset('assets/img/medical/dentista/nav/icon7.png')}}" class="img-fluid"> <span>Doctors</span></a>
               <a class="col-md-4 col-6" href="#contactus"><img src="{{asset('assets/img/medical/dentista/nav/icon8.png')}}" class="img-fluid"> <span>Contact Us</span></a>
             </div>
@@ -136,46 +137,6 @@
               </div>
             </div>
           </div>
-        </div>
-      </div>
-    </section>
-
-    <section>
-      <div class="container">
-        <div class="row counters">
-
-          <div class="col-lg-3 col-md-6" data-aos="zoom-in" data-aos-delay="100">
-            <div class="count-box">
-              <i class="bi bi-emoji-smile"></i>
-              <span data-toggle="counter-up">232</span>
-              <p>Clients</p>
-            </div>
-          </div>
-
-          <div class="col-lg-3 col-md-6" data-aos="zoom-in" data-aos-delay="200">
-            <div class="count-box">
-              <i class="bi bi-journal-richtext"></i>
-              <span data-toggle="counter-up">521</span>
-              <p>Projects</p>
-            </div>
-          </div>
-
-          <div class="col-lg-3 col-md-6" data-aos="zoom-in" data-aos-delay="300">
-            <div class="count-box">
-              <i class="bi bi-clock"></i>
-              <span data-toggle="counter-up">35</span>
-              <p>Experience</p>
-            </div>
-          </div>
-
-          <div class="col-lg-3 col-md-6" data-aos="zoom-in" data-aos-delay="400">
-            <div class="count-box">
-              <i class="bi bi-award"></i>
-              <span data-toggle="counter-up">15</span>
-              <p>Awards</p>
-            </div>
-          </div>
-
         </div>
       </div>
     </section>
@@ -298,130 +259,85 @@
       </div>
     </section>
 
-    <section id="recentblogs" class="recentblogs">
-      <div class="container mytitle">
-        <div class="row">
-          <div class="col-lg-7 title-left order-lg-1 order-2" data-aos="fade-right">
-            <span>Our Blogs</span>
-            <h6>Recent Medical News</h6>
-          </div>
-        </div>
-      </div>
+    <!-- ======= Gallery Section ======= -->
+    <section id="gallery" class="gallery">
       <div class="container">
-        <div class="row">
-          <div class="recentblogs-carousel owl-carousel">
-            <div class="recentblogs-item" data-aos="zoom-in" data-aos-delay="100">
-              <div class="recentblogs-img" style="background-image: url('/assets/img/medical/dentista/blog/blog-1.jpg');">
-                <div class="pic-tag">
-                  <div class="f-text">Seo</div>
-                  <div class="s-text">22-Jun-2022</div>
-                </div>
-                <div class="feature-author">
-                  <div class="fa-pic">
-                    <img src="{{asset('assets/img/medical/dentista/blog/author1.jpg')}}" alt="">
-                  </div>
-                  <div class="fa-text">
-                    <span>Sara Wilsson</span>
-                  </div>
-                </div>
-              </div>
-              <div class="recentblogs-content">
-                <div class="inside-text">
-                  <h4>Ut labore et dolore magna aliqua</h4>
-                  <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
-                </div>
-                <ul class="room-features">
-                  <li>
-                    <i class="icofont-facebook"></i>
-                    <p>Likes</p>
-                  </li>
-                  <li>
-                    <i class="icofont-comment"></i>
-                    <p>9</p>
-                  </li>
-                  <li><a href="">
-                    <i class="icofont-arrow-right"></i>
-                    <p>Full Story</p></a>
-                  </li>
-                </ul>
-              </div>
-            </div>
-            <div class="recentblogs-item" data-aos="zoom-in" data-aos-delay="200">
-              <div class="recentblogs-img" style="background-image: url('/assets/img/medical/dentista/blog/blog-2.jpg');">
-                <div class="pic-tag">
-                  <div class="f-text">Seo</div>
-                  <div class="s-text">22-Jun-2022</div>
-                </div>
-                <div class="feature-author">
-                  <div class="fa-pic">
-                    <img src="{{asset('assets/img/medical/dentista/blog/author2.jpg')}}" alt="">
-                  </div>
-                  <div class="fa-text">
-                    <span>Jena Karlis</span>
-                  </div>
-                </div>
-              </div>
-              <div class="recentblogs-content">
-                <div class="inside-text">
-                  <h4>Ut labore et dolore magna aliqua</h4>
-                  <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
-                </div>
-                <ul class="room-features">
-                  <li>
-                    <i class="icofont-facebook"></i>
-                    <p>Likes</p>
-                  </li>
-                  <li>
-                    <i class="icofont-comment"></i>
-                    <p>9</p>
-                  </li>
-                  <li><a href="">
-                    <i class="icofont-arrow-right"></i>
-                    <p>Full Story</p></a>
-                  </li>
-                </ul>
-              </div>
-            </div>
-            <div class="recentblogs-item" data-aos="zoom-in" data-aos-delay="300">
-              <div class="recentblogs-img" style="background-image: url('/assets/img/medical/dentista/blog/blog-3.jpg');">
-                <div class="pic-tag">
-                  <div class="f-text">Seo</div>
-                  <div class="s-text">22-Jun-2022</div>
-                </div>
-                <div class="feature-author">
-                  <div class="fa-pic">
-                    <img src="{{asset('assets/img/medical/dentista/blog/author3.jpg')}}" alt="">
-                  </div>
-                  <div class="fa-text">
-                    <span>Saul Goodman</span>
-                  </div>
-                </div>
-              </div>
-              <div class="recentblogs-content">
-                <div class="inside-text">
-                  <h4>Ut labore et dolore magna aliqua</h4>
-                  <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
-                </div>
-                <ul class="room-features">
-                  <li>
-                    <i class="icofont-facebook"></i>
-                    <p>Likes</p>
-                  </li>
-                  <li>
-                    <i class="icofont-comment"></i>
-                    <p>9</p>
-                  </li>
-                  <li><a href="">
-                    <i class="icofont-arrow-right"></i>
-                    <p>Full Story</p></a>
-                  </li>
-                </ul>
-              </div>
+
+        <div class="col-lg-7 title-left order-lg-1 order-2" data-aos="fade-right">
+          <span>Gallery</span>
+          <h6>Check Our Gallery</h6>
+        </div>
+
+        <div class="row no-gutters" data-aos="fade-left">
+
+          <div class="col-lg-3 col-md-4">
+            <div class="gallery-item" data-aos="zoom-in" data-aos-delay="100">
+              <a href="{{asset('assets/img/medical/dento/gallery/gallery-1.jpg')}}" class="venobox" data-gall="gallery-item">
+                <img src="{{asset('assets/img/medical/dento/gallery/gallery-1.jpg')}}" alt="" class="img-fluid">
+              </a>
             </div>
           </div>
+
+          <div class="col-lg-3 col-md-4">
+            <div class="gallery-item" data-aos="zoom-in" data-aos-delay="150">
+              <a href="{{asset('assets/img/medical/dento/gallery/gallery-2.jpg')}}" class="venobox" data-gall="gallery-item">
+                <img src="{{asset('assets/img/medical/dento/gallery/gallery-2.jpg')}}" alt="" class="img-fluid">
+              </a>
+            </div>
+          </div>
+
+          <div class="col-lg-3 col-md-4">
+            <div class="gallery-item" data-aos="zoom-in" data-aos-delay="200">
+              <a href="{{asset('assets/img/medical/dento/gallery/gallery-3.jpg')}}" class="venobox" data-gall="gallery-item">
+                <img src="{{asset('assets/img/medical/dento/gallery/gallery-3.jpg')}}" alt="" class="img-fluid">
+              </a>
+            </div>
+          </div>
+
+          <div class="col-lg-3 col-md-4">
+            <div class="gallery-item" data-aos="zoom-in" data-aos-delay="250">
+              <a href="{{asset('assets/img/medical/dento/gallery/gallery-4.jpg')}}" class="venobox" data-gall="gallery-item">
+                <img src="{{asset('assets/img/medical/dento/gallery/gallery-4.jpg')}}" alt="" class="img-fluid">
+              </a>
+            </div>
+          </div>
+
+          <div class="col-lg-3 col-md-4">
+            <div class="gallery-item" data-aos="zoom-in" data-aos-delay="300">
+              <a href="{{asset('assets/img/medical/dento/gallery/gallery-5.jpg')}}" class="venobox" data-gall="gallery-item">
+                <img src="{{asset('assets/img/medical/dento/gallery/gallery-5.jpg')}}" alt="" class="img-fluid">
+              </a>
+            </div>
+          </div>
+
+          <div class="col-lg-3 col-md-4">
+            <div class="gallery-item" data-aos="zoom-in" data-aos-delay="350">
+              <a href="{{asset('assets/img/medical/dento/gallery/gallery-6.jpg')}}" class="venobox" data-gall="gallery-item">
+                <img src="{{asset('assets/img/medical/dento/gallery/gallery-6.jpg')}}" alt="" class="img-fluid">
+              </a>
+            </div>
+          </div>
+
+          <div class="col-lg-3 col-md-4">
+            <div class="gallery-item" data-aos="zoom-in" data-aos-delay="400">
+              <a href="{{asset('assets/img/medical/dento/gallery/gallery-7.jpg')}}" class="venobox" data-gall="gallery-item">
+                <img src="{{asset('assets/img/medical/dento/gallery/gallery-7.jpg')}}" alt="" class="img-fluid">
+              </a>
+            </div>
+          </div>
+
+          <div class="col-lg-3 col-md-4">
+            <div class="gallery-item" data-aos="zoom-in" data-aos-delay="450">
+              <a href="{{asset('assets/img/medical/dento/gallery/gallery-8.jpg')}}" class="venobox" data-gall="gallery-item">
+                <img src="{{asset('assets/img/medical/dento/gallery/gallery-8.jpg')}}" alt="" class="img-fluid">
+              </a>
+            </div>
+          </div>
+
         </div>
+
       </div>
-    </section>
+    </section><!-- End Gallery Section -->
 
     <section id="doctors" class="doctors">
       <div class="container mytitle">
@@ -451,7 +367,7 @@
                 </div>
               </div>
               <div class="team-appointment">
-                <a class="template-btn"><span>Get An Appointment</span></a>
+                <a class="template-btn"><span>Chat on Whatsapp</span></a>
               </div>
             </div>
           </div>
@@ -472,7 +388,7 @@
                 </div>
               </div>
               <div class="team-appointment">
-                <a class="template-btn"><span>Get An Appointment</span></a>
+                <a class="template-btn"><span>Chat on Whatsapp</span></a>
               </div>
             </div>
           </div>
@@ -493,7 +409,7 @@
                 </div>
               </div>
               <div class="team-appointment">
-                <a class="template-btn"><span>Get An Appointment</span></a>
+                <a class="template-btn"><span>Chat on Whatsapp</span></a>
               </div>
             </div>
           </div>
@@ -514,7 +430,7 @@
                 </div>
               </div>
               <div class="team-appointment">
-                <a class="template-btn"><span>Get An Appointment</span></a>
+                <a class="template-btn"><span>Chat on Whatsapp</span></a>
               </div>
             </div>
           </div>
@@ -522,82 +438,7 @@
       </div>
     </section>
 
-      <section id="faq">
-        <div class="container mytitle">
-          <div class="row">
-            <div class="col-lg-7 title-left order-lg-1 order-2" data-aos="fade-right">
-              <span>Faqs</span>
-              <h6>Frequently Asked Questions</h6>
-            </div>
-          </div>
-        </div>
-      <div class="container" id="myfaqs">
-        <div class="accordion" data-aos="fade-up">
-        
-        <label class="accordion__item" data-aos="zoom-in" data-aos-delay="100">
-          <input type="checkbox" name="accordion">
-          <div class="accordion__title">Sed do eiusmod tempor incididunt?</div>
-          <div class="accordion__content">
-          <p>
-            Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam
-          </p>
-          </div>
-        </label>
-        
-        <label class="accordion__item" data-aos="zoom-in" data-aos-delay="200">
-          <input type="checkbox" name="accordion">
-          <div class="accordion__title">Sed do eiusmod tempor incididunt?</div>
-          <div class="accordion__content">
-          <p>
-            Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam
-          </p>
-          </div>
-        </label>
-        
-        <label class="accordion__item" data-aos="zoom-in" data-aos-delay="300">
-          <input type="checkbox" name="accordion">
-          <div class="accordion__title">Sed do eiusmod tempor incididunt?</div>
-          <div class="accordion__content">
-          <p>
-            Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam
-          </p>
-          </div>
-        </label>
-        
-        <label class="accordion__item" data-aos="zoom-in" data-aos-delay="400">
-          <input type="checkbox" name="accordion">
-          <div class="accordion__title">Sed do eiusmod tempor incididunt?</div>
-          <div class="accordion__content">
-          <p>
-            Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam
-          </p>
-          </div>
-        </label>
-        
-        <label class="accordion__item" data-aos="zoom-in" data-aos-delay="500">
-          <input type="checkbox" name="accordion">
-          <div class="accordion__title">Sed do eiusmod tempor incididunt?</div>
-          <div class="accordion__content">
-          <p>
-            Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam
-          </p>
-          </div>
-        </label>
-        
-        <label class="accordion__item" data-aos="zoom-in" data-aos-delay="600">
-          <input type="checkbox" name="accordion">
-          <div class="accordion__title">Sed do eiusmod tempor incididunt?</div>
-          <div class="accordion__content">
-          <p>
-            Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam
-          </p>
-          </div>
-        </label>
-        
-        </div>
-      </div>
-      </section>
-
+      
     <section id="contactus" class="contactus">
       <div class="container mytitle">
         <div class="row">
@@ -694,136 +535,6 @@
       </div>
     </section>
 
-    <section id="testimonials" class="testimonials">
-      <div class="container mytitle">
-        <div class="row">
-          <div class="col-lg-7 title-left order-lg-1 order-2" data-aos="fade-right">
-            <span>Testimonials</span>
-            <h6>What Patients Are Saying...</h6>
-          </div>
-        </div>
-      </div>
-      <div class="container">
-        <div class="testimonial-carousel owl-carousel">
-          <div class="testimonial-block">
-            <div class="row">
-              <div class="col-xl-12">
-              <div class="review-svg bubble bg-img design-1">
-                <p class="review-text-height" id="review-text-1">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo</p>   
-              </div>    
-              </div>
-          
-              <div class="col-xl-12">
-              <cite>
-                <div class="box-top">
-                <div class="row" style="margin-left: 38px;">
-          
-                  <div class="col-12" style="margin-bottom: -12px">
-                  <div class="profile">
-                    <div class="profile-img">
-                    <img src="{{asset('assets/img/medical/dentista/rms/comments-1.jpg')}}" alt="" class="img-fluid">
-                    </div>
-                    <div class="name-user">
-                    <strong>Caroline Grant
-                      <img src="{{asset('assets/img/medical/dentista/google.png')}}" alt="from google" class="img-fluid" style="margin-left: 6px;"></strong>
-                    <span>One Month Ago</span>
-                    </div>
-                  </div>                  
-                  </div>
-          
-                  <div class="col-12">
-                  <div class="reviews">
-                    <div class="stars" data-percent="100"></div>  
-                  </div>             
-                  </div>
-                </div>
-                </div>   
-              </cite>                
-              </div>            
-            </div>
-          </div>
-
-          <div class="testimonial-block">
-            <div class="row">
-              <div class="col-xl-12">
-              <div class="review-svg bubble bg-img design-4">
-                <p class="review-text-height" id="review-text-1">
-                Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
-                </p>   
-              </div>    
-              </div>
-          
-              <div class="col-xl-12">
-              <cite>
-                <div class="box-top">
-                <div class="row" style="margin-left: 38px;">
-          
-                  <div class="col-12" style="margin-bottom: -12px">
-                  <div class="profile">
-                    <div class="profile-img">
-                    <img src="{{asset('assets/img/medical/dentista/rms/comments-2.jpg')}}" alt="" class="img-fluid">
-                    </div>
-                    <div class="name-user">
-                    <strong>Nathan Mullins
-                      <img src="{{asset('assets/img/medical/dentista/google.png')}}" alt="from google" class="img-fluid" width="25" style="margin-left: 6px;"></strong>
-                    <span>One Month Ago</span>
-                    </div>
-                  </div>                  
-                  </div>
-          
-                  <div class="col-12">
-                  <div class="reviews">
-                    <div class="stars" data-percent="100"></div>  
-                  </div>             
-                  </div>
-                </div>
-                </div>   
-              </cite>                
-              </div>            
-            </div>
-          </div>
-
-          <div class="testimonial-block">
-            <div class="row">
-              <div class="col-xl-12">
-              <div class="review-svg bubble bg-img design-3">
-                <p class="review-text-height" id="review-text-1">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo</p>   
-              </div>    
-              </div>
-          
-              <div class="col-xl-12">
-              <cite>
-                <div class="box-top">
-                <div class="row" style="margin-left: 38px;">
-          
-                  <div class="col-12 mt-2" style="margin-bottom: -12px">
-                  <div class="profile">
-                    <div class="profile-img">
-                    <img src="{{asset('assets/img/medical/dentista/rms/comments-3.jpg')}}" alt="" class="img-fluid">
-                    </div>
-                    <div class="name-user">
-                    <strong>Maria Angel
-                      <img src="{{asset('assets/img/medical/dentista/google.png')}}" alt="from google" class="img-fluid" width="25" style="margin-left: 6px;"></strong>
-                    <span>One Month Ago</span>
-                    </div>
-                  </div>                  
-                  </div>
-          
-                  <div class="col-12">
-                  <div class="reviews">
-                    <div class="stars" data-percent="100"></div>  
-                  </div>             
-                  </div>
-                </div>
-                </div>   
-              </cite>                
-              </div>            
-            </div>
-          </div>
-        </div>
-      </div>
-    </section>
-
   </main>
 
   <footer id="footer">
@@ -893,21 +604,6 @@
             <a class="twitter-bg"><i class="icofont-twitter"></i></a>
             <a class="instagram-bg"><i class="icofont-instagram"></i></a>
           </div>
-          <div class="form_container mt-5">
-            <form action="">
-              <label for="subscribeMail">
-                Newsletter
-              </label>
-              <input
-                type="email"
-                placeholder="Enter Your email"
-                id="subscribeMail"
-              />
-              <button type="submit">
-                Subscribe
-              </button>
-            </form>
-          </div>
         </div>
       </div>
     </div>
@@ -924,6 +620,7 @@
   <script src="{{asset('assets/vendor/jquery.easing/jquery.easing.min.js')}}"></script>
   <script src="{{asset('assets/vendor/waypoints/jquery.waypoints.min.js')}}"></script>
   <script src="{{asset('assets/vendor/counterup/counterup.min.js')}}"></script>
+  <script src="{{asset('assets/vendor/venobox/venobox.min.js')}}"></script>
   <script src="{{asset('assets/vendor/owl.carousel/owl.carousel.min.js')}}"></script>
   <script src="{{asset('assets/vendor/aos/aos.js')}}"></script>
 

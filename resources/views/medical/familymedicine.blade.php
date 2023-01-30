@@ -13,6 +13,7 @@
   <link href="{{asset('assets/vendor/bootstrap/css/bootstrap.min.css')}}" rel="stylesheet">
   <link href="{{asset('assets/vendor/boxicons/css/boxicons.min.css')}}" rel="stylesheet">
   <link href="{{asset('assets/vendor/icofont/icofont.min.css')}}" rel="stylesheet">
+  <link href="{{asset('assets/vendor/venobox/venobox.css')}}" rel="stylesheet">
   <link href="{{asset('assets/vendor/owl.carousel/assets/owl.carousel.min.css')}}" rel="stylesheet">
   <link href="{{asset('assets/vendor/aos/aos.css')}}" rel="stylesheet">
 
@@ -39,12 +40,12 @@
         <ul>
           <li><a href="index.html" class="nav-title">HEALTHCARE</a></li>
           <li class="active"><a href="#hero"><img src="{{asset('assets/img/medical/fammed/nav/home.png')}}" class="img-fluid"><span>Home</span></a></li>
-          <li><a href="#aboutus"><img src="{{asset('assets/img/medical/fammed/nav/about.png')}}" class="img-fluid"><span>Why Us</span></a></li>
+          <li><a href="#aboutus"><img src="{{asset('assets/img/medical/fammed/nav/about.png')}}" class="img-fluid"><span>About Us</span></a></li>
           <li><a href="#service-main"><img src="{{asset('assets/img/medical/fammed/nav/service.png')}}" class="img-fluid"><span>Services</span></a></li>
-          <li><a href="#recentblogs"><img src="{{asset('assets/img/medical/fammed/nav/blog.png')}}" class="img-fluid"><span>News</span></a></li>
+          <li><a href="#gallery"><img src="{{asset('assets/img/medical/fammed/nav/gallery.png')}}" class="img-fluid"><span>Gallery</span></a></li>
           <li><a href="#doctors"><img src="{{asset('assets/img/medical/fammed/nav/doctor.png')}}" class="img-fluid"><span>Doctors</span></a></li>
-          <li><a href="#faq"><img src="{{asset('assets/img/medical/fammed/nav/faq.png')}}" class="img-fluid"><span>Faqs</span></a></li>
-          <li><a href="#testimonials"><img src="{{asset('assets/img/medical/fammed/nav/review.png')}}" class="img-fluid"><span>Reviews</span></a></li>
+          <li><a href="#socialmedia"><img src="{{asset('assets/img/medical/fammed/nav/social.png')}}" class="img-fluid"><span>Social Media</span></a></li>
+          <li><a href="#footer"><img src="{{asset('assets/img/medical/fammed/nav/contact.png')}}" class="img-fluid"><span>Contact</span></a></li>
         </ul>
       </nav><!-- .nav-menu -->
 
@@ -67,13 +68,13 @@
               <p>Best Medical Clinic</p>
               <h1>Best medical services In City</h1>
               <a href="#service-main" class="template-btn1 hero-btn1">View Services</a>
-              <a class="template-btn2 hero-btn2">Get Appointment</a>
+              <a class="template-btn2 hero-btn2">Chat With Me</a>
             </div>
             <div class="hero-content">
               <p>Best Medical Clinic</p>
-              <h1>Get Appointment With Our Doctors</h1>
+              <h1>Start Chat With Our Doctors</h1>
               <a href="#doctors" class="template-btn1 hero-btn1">Search Doctors</a>
-              <a class="template-btn2 hero-btn2">Get Appointment</a>
+              <a class="template-btn2 hero-btn2">Chat With Me</a>
             </div>
           </div>
         </div>
@@ -261,59 +262,84 @@
       </div>
     </section>
 
-    <section id="recentblogs" class="recentblogs">
+    <!-- ======= Gallery Section ======= -->
+    <section id="gallery" class="gallery">
       <div class="container">
+
         <div class="section-title" data-aos="flip-down" data-aos-delay="100">
-          <h2>Recent Medical News</h2>
+          <h2>Check Our Gallery</h2>
         </div>
-        <div class="row">
-          <div class="owl-carousel recentblogs-carousel">
-            <div class="recentblogs-block" data-aos="flip-up" data-aos-delay="200">
-              <div class="recentblogs-item">
-                <div class="recentblogs-img">
-                  <img src="{{asset('assets/img/medical/fammed/blog/blog-1.jpg')}}" class="img-fluid">
-                </div>
-                <div class="recentblogs-content">
-                  <span>01 SEP, 2022</span>
-                  <h4>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor</h4>
-                </div>
-              </div>
-              <div class="recentblogs-btn">
-                <a href="" class="template-btn2">Full Story</a>
-              </div>
-            </div>
-            <div class="recentblogs-block" data-aos="flip-up" data-aos-delay="400">
-              <div class="recentblogs-item">
-                <div class="recentblogs-img">
-                  <img src="{{asset('assets/img/medical/fammed/blog/blog-2.jpg')}}" class="img-fluid">
-                </div>
-                <div class="recentblogs-content">
-                  <span>01 SEP, 2022</span>
-                  <h4>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor</h4>
-                </div>
-              </div>
-              <div class="recentblogs-btn">
-                <a href="" class="template-btn2">Full Story</a>
-              </div>
-            </div>
-            <div class="recentblogs-block" data-aos="flip-up" data-aos-delay="600">
-              <div class="recentblogs-item">
-                <div class="recentblogs-img">
-                  <img src="{{asset('assets/img/medical/fammed/blog/blog-3.jpg')}}" class="img-fluid">
-                </div>
-                <div class="recentblogs-content">
-                  <span>01 SEP, 2022</span>
-                  <h4>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor</h4>
-                </div>
-              </div>
-              <div class="recentblogs-btn">
-                <a href="" class="template-btn2">Full Story</a>
-              </div>
+
+        <div class="row no-gutters" data-aos="fade-left">
+
+          <div class="col-lg-3 col-md-4">
+            <div class="gallery-item" data-aos="zoom-in" data-aos-delay="100">
+              <a href="{{asset('assets/img/medical/dento/gallery/gallery-1.jpg')}}" class="venobox" data-gall="gallery-item">
+                <img src="{{asset('assets/img/medical/dento/gallery/gallery-1.jpg')}}" alt="" class="img-fluid">
+              </a>
             </div>
           </div>
+
+          <div class="col-lg-3 col-md-4">
+            <div class="gallery-item" data-aos="zoom-in" data-aos-delay="150">
+              <a href="{{asset('assets/img/medical/dento/gallery/gallery-2.jpg')}}" class="venobox" data-gall="gallery-item">
+                <img src="{{asset('assets/img/medical/dento/gallery/gallery-2.jpg')}}" alt="" class="img-fluid">
+              </a>
+            </div>
+          </div>
+
+          <div class="col-lg-3 col-md-4">
+            <div class="gallery-item" data-aos="zoom-in" data-aos-delay="200">
+              <a href="{{asset('assets/img/medical/dento/gallery/gallery-3.jpg')}}" class="venobox" data-gall="gallery-item">
+                <img src="{{asset('assets/img/medical/dento/gallery/gallery-3.jpg')}}" alt="" class="img-fluid">
+              </a>
+            </div>
+          </div>
+
+          <div class="col-lg-3 col-md-4">
+            <div class="gallery-item" data-aos="zoom-in" data-aos-delay="250">
+              <a href="{{asset('assets/img/medical/dento/gallery/gallery-4.jpg')}}" class="venobox" data-gall="gallery-item">
+                <img src="{{asset('assets/img/medical/dento/gallery/gallery-4.jpg')}}" alt="" class="img-fluid">
+              </a>
+            </div>
+          </div>
+
+          <div class="col-lg-3 col-md-4">
+            <div class="gallery-item" data-aos="zoom-in" data-aos-delay="300">
+              <a href="{{asset('assets/img/medical/dento/gallery/gallery-5.jpg')}}" class="venobox" data-gall="gallery-item">
+                <img src="{{asset('assets/img/medical/dento/gallery/gallery-5.jpg')}}" alt="" class="img-fluid">
+              </a>
+            </div>
+          </div>
+
+          <div class="col-lg-3 col-md-4">
+            <div class="gallery-item" data-aos="zoom-in" data-aos-delay="350">
+              <a href="{{asset('assets/img/medical/dento/gallery/gallery-6.jpg')}}" class="venobox" data-gall="gallery-item">
+                <img src="{{asset('assets/img/medical/dento/gallery/gallery-6.jpg')}}" alt="" class="img-fluid">
+              </a>
+            </div>
+          </div>
+
+          <div class="col-lg-3 col-md-4">
+            <div class="gallery-item" data-aos="zoom-in" data-aos-delay="400">
+              <a href="{{asset('assets/img/medical/dento/gallery/gallery-7.jpg')}}" class="venobox" data-gall="gallery-item">
+                <img src="{{asset('assets/img/medical/dento/gallery/gallery-7.jpg')}}" alt="" class="img-fluid">
+              </a>
+            </div>
+          </div>
+
+          <div class="col-lg-3 col-md-4">
+            <div class="gallery-item" data-aos="zoom-in" data-aos-delay="450">
+              <a href="{{asset('assets/img/medical/dento/gallery/gallery-8.jpg')}}" class="venobox" data-gall="gallery-item">
+                <img src="{{asset('assets/img/medical/dento/gallery/gallery-8.jpg')}}" alt="" class="img-fluid">
+              </a>
+            </div>
+          </div>
+
         </div>
+
       </div>
-    </section>
+    </section><!-- End Gallery Section -->
 
     <section id="doctors" class="doctors">
       <div class="container">
@@ -382,113 +408,6 @@
                 <a class="team-sicon facebook-bg"><i class="icofont-facebook"></i></a>
                 <a class="team-sicon twitter-bg"><i class="icofont-twitter"></i></a>
                 <a class="team-sicon instagram-bg"><i class="icofont-instagram"></i></a>
-              </div>
-            </div>
-          </div>
-        </div>
-      </div>
-    </section>
-
-    <section id="faq">
-      <div class="container">
-        <div class="section-title" data-aos="flip-down" data-aos-delay="100">
-          <h2>Frequently Asked Questions</h2>
-        </div>
-        <div class="row accordion">
-          <div class="col-lg-12" data-aos="flip-up" data-aos-delay="200">
-            <label class="faq-item">
-              <input type="checkbox" name="accordion">
-              <div class="faq-heading"><img src="{{asset('assets/img/medical/fammed/faq.png')}}" class="img-fluid"> Lorem ipsum dolor sit amet, consectetur adipisicing elit?</div>
-              <div class="faq-desc"><p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam</p></div>
-            </label>
-          </div>
-          <div class="col-lg-12" data-aos="flip-up" data-aos-delay="300">
-            <label class="faq-item">
-              <input type="checkbox" name="accordion">
-              <div class="faq-heading"><img src="{{asset('assets/img/medical/fammed/faq.png')}}" class="img-fluid"> Lorem ipsum dolor sit amet, consectetur adipisicing elit?</div>
-              <div class="faq-desc"><p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam</p></div>
-            </label>
-          </div>
-          <div class="col-lg-12" data-aos="flip-up" data-aos-delay="400">
-            <label class="faq-item">
-              <input type="checkbox" name="accordion">
-              <div class="faq-heading"><img src="{{asset('assets/img/medical/fammed/faq.png')}}" class="img-fluid"> Lorem ipsum dolor sit amet, consectetur adipisicing elit?</div>
-              <div class="faq-desc"><p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam</p></div>
-            </label>
-          </div>
-          <div class="col-lg-12" data-aos="flip-up" data-aos-delay="500">
-            <label class="faq-item">
-              <input type="checkbox" name="accordion">
-              <div class="faq-heading"><img src="{{asset('assets/img/medical/fammed/faq.png')}}" class="img-fluid"> Lorem ipsum dolor sit amet, consectetur adipisicing elit?</div>
-              <div class="faq-desc"><p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam</p></div>
-            </label>
-          </div>
-          <div class="col-lg-12" data-aos="flip-up" data-aos-delay="600">
-            <label class="faq-item">
-              <input type="checkbox" name="accordion">
-              <div class="faq-heading"><img src="{{asset('assets/img/medical/fammed/faq.png')}}" class="img-fluid"> Lorem ipsum dolor sit amet, consectetur adipisicing elit?</div>
-              <div class="faq-desc"><p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam</p></div>
-            </label>
-          </div>
-          <div class="col-lg-12" data-aos="flip-up" data-aos-delay="700">
-            <label class="faq-item">
-              <input type="checkbox" name="accordion">
-              <div class="faq-heading"><img src="{{asset('assets/img/medical/fammed/faq.png')}}" class="img-fluid"> Lorem ipsum dolor sit amet, consectetur adipisicing elit?</div>
-              <div class="faq-desc"><p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam</p></div>
-            </label>
-          </div>
-        </div>
-      </div>
-    </section>
-
-    <section id="testimonials" class="testimonials">
-      <div class="container">
-        <div class="section-title" data-aos="flip-down" data-aos-delay="100">
-          <h2>What Are Patients Saying....</h2>
-        </div>
-        <div class="owl-carousel testimonial-carousel">
-          <div class="testimonial-block" data-aos="flip-up" data-aos-delay="200">
-            <div class="testimonial-item">
-              <div class="testimonial-icon">
-                <img src="{{asset('assets/img/medical/fammed/rms/quote.png')}}" class="img-fluid">
-              </div>
-              <div class="testimonial-content">
-                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam.</p>
-              </div>
-              <div class="testimonial-author">
-                <img src="{{asset('assets/img/medical/fammed/rms/comments-1.jpg')}}" alt="" class="img-fluid">
-                <h5>Caroline Grant</h5>
-                <span>One Month Ago</span>
-              </div>
-            </div>
-          </div>
-          <div class="testimonial-block" data-aos="flip-up" data-aos-delay="400">
-            <div class="testimonial-item">
-              <div class="testimonial-icon">
-                <img src="{{asset('assets/img/medical/fammed/rms/quote.png')}}" class="img-fluid">
-              </div>
-              <div class="testimonial-content">
-                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam.</p>
-              </div>
-              <div class="testimonial-author">
-                <img src="{{asset('assets/img/medical/fammed/rms/comments-2.jpg')}}" alt="" class="img-fluid">
-                <h5>Nathan Mullins</h5>
-                <span>One Month Ago</span>
-              </div>
-            </div>
-          </div>
-          <div class="testimonial-block" data-aos="flip-up" data-aos-delay="600">
-            <div class="testimonial-item">
-              <div class="testimonial-icon">
-                <img src="{{asset('assets/img/medical/fammed/rms/quote.png')}}" class="img-fluid">
-              </div>
-              <div class="testimonial-content">
-                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam.</p>
-              </div>
-              <div class="testimonial-author">
-                <img src="{{asset('assets/img/medical/fammed/rms/comments-3.jpg')}}" alt="" class="img-fluid">
-                <h5>Maria Angel</h5>
-                <span>One Month Ago</span>
               </div>
             </div>
           </div>
@@ -582,23 +501,14 @@
             </ul>
           </div>
 
-          <div class="col-lg-4 col-md-6">
-            <h4>Recent News</h4>
-            <div class="footer-blogs">
-              <img src="{{asset('assets/img/medical/fammed/blog/blog-1.jpg')}}" class="img-fluid">
-              <span>11 April, 2022</span>
-              <h5>Less Than 15% of Medical Sites Meet CORE WEB VITALS Scores</h5>
-            </div>
-            <div class="footer-blogs">
-              <img src="{{asset('assets/img/medical/fammed/blog/blog-2.jpg')}}" class="img-fluid">
-              <span>11 April, 2022</span>
-              <h5>8 Silly But Harmful SEO Mistakes Medical Sites Make</h5>
-            </div>
-            <div class="footer-blogs">
-              <img src="{{asset('assets/img/medical/fammed/blog/blog-3.jpg')}}" class="img-fluid">
-              <span>11 April, 2022</span>
-              <h5>Don't Let Your Medical Web Site Listings be Sabotaged</h5>
-            </div>
+          <div class="col-lg-4 col-md-6 footer-links">
+            <h4>Useful Links</h4>
+            <ul>
+              <li><i class="bx bx-chevron-right"></i> <a href="#hero">Home</a></li>
+              <li><i class="bx bx-chevron-right"></i> <a href="#aboutus">About us</a></li>
+              <li><i class="bx bx-chevron-right"></i> <a href="#service-main">Services</a></li>
+              <li><i class="bx bx-chevron-right"></i> <a href="#recentblogs">Blogs</a></li>
+            </ul>
           </div>
 
         </div>
@@ -618,6 +528,7 @@
   <script src="{{asset('assets/vendor/jquery/jquery.min.js')}}"></script>
   <script src="{{asset('assets/vendor/bootstrap/js/bootstrap.bundle.min.js')}}"></script>
   <script src="{{asset('assets/vendor/jquery.easing/jquery.easing.min.js')}}"></script>
+  <script src="{{asset('assets/vendor/venobox/venobox.min.js')}}"></script>
   <script src="{{asset('assets/vendor/owl.carousel/owl.carousel.min.js')}}"></script>
   <script src="{{asset('assets/vendor/aos/aos.js')}}"></script>
   

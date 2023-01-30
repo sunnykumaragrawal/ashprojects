@@ -13,6 +13,7 @@
   <link href="{{asset('assets/vendor/bootstrap/css/bootstrap.min.css')}}" rel="stylesheet">
   <link href="{{asset('assets/vendor/boxicons/css/boxicons.min.css')}}" rel="stylesheet">
   <link href="{{asset('assets/vendor/icofont/icofont.min.css')}}" rel="stylesheet">
+  <link href="{{asset('assets/vendor/venobox/venobox.css')}}" rel="stylesheet">
   <link href="{{asset('assets/vendor/owl.carousel/assets/owl.carousel.min.css')}}" rel="stylesheet">
   <link href="{{asset('assets/vendor/aos/aos.css')}}" rel="stylesheet">
 
@@ -35,8 +36,6 @@
       <div class="cta d-flex align-items-center">
         <ul>
             <li><a href="#socialmedia">Social Media</a></li>
-            <li><a href="#testimonials">Review</a></li>
-            <li><a href="#faq">FAQ</a></li>
         </ul>
       </div>
     </div>
@@ -58,7 +57,7 @@
           <li class="active"><a href="#hero"><img src="{{asset('assets/img/medical/demo1/nav/icon1.png')}}" class="img-fluid"><span>Home</span></a></li>
           <li><a href="#aboutus"><img src="{{asset('assets/img/medical/demo1/nav/about.png')}}" class="img-fluid"><span>About</span></a></li>
           <li><a href="#service-main"><img src="{{asset('assets/img/medical/demo1/nav/service.png')}}" class="img-fluid"><span>Services</span></a></li>
-          <li><a href="#recentblogs"><img src="{{asset('assets/img/medical/demo1/nav/blog.png')}}" class="img-fluid"><span>News</span></a></li>
+          <li><a href="#gallery"><img src="{{asset('assets/img/medical/demo1/nav/gallery.png')}}" class="img-fluid"><span>Gallery</span></a></li>
           <li><a href="#doctors"><img src="{{asset('assets/img/medical/demo1/nav/doctor.png')}}" class="img-fluid"><span>Doctors</span></a></li>
           <li><a href="#contactus"><img src="{{asset('assets/img/medical/demo1/nav/contact.png')}}" class="img-fluid"><span>Contact</span></a></li>
         </ul>
@@ -276,67 +275,84 @@
       </div>
     </section>
 
-    <section id="recentblogs" class="recentblogs">
+    <!-- ======= Gallery Section ======= -->
+    <section id="gallery" class="gallery">
       <div class="section-title" data-aos="fade-down">
-        <div class="icon"><img src="{{asset('assets/img/medical/demo1/nav/blog.png')}}" class="img-fluid"></div>
-        <h2>Recent <span>Medical</span> News</h2>
+        <div class="icon"><img src="{{asset('assets/img/medical/demo1/nav/gallery.png')}}" class="img-fluid"></div>
+        <h2>Check <span>Our</span> Gallery</h2>
       </div>
       <div class="container">
-        <div class="recentblogs-carousel owl-carousel">
-          <div class="recentblogs-item" data-aos="zoom-in" data-aos-delay="100">
-            <div class="recentblogs-img">
-              <img src="{{asset('assets/img/medical/demo1/blog/blog-1.jpg')}}" class="img-fluid">
-            </div>
-            <div class="row recentblogs-block">
-              <div class="col-lg-3 recentblogs-date">
-                <h5>14 <span>Aug</span></h5>
-              </div>
-              <div class="col-lg-9 recentblogs-content">
-                <h4>Sed do eiusmod tempor incididunt</h4>
-                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
-              </div>
-            </div>
-            <div class="recentblogs-btn">
-              <a href="" class="template-btn color1 color2">Full Story</a>
+
+        <div class="row no-gutters" data-aos="fade-left">
+
+          <div class="col-lg-3 col-md-4">
+            <div class="gallery-item" data-aos="zoom-in" data-aos-delay="100">
+              <a href="{{asset('assets/img/medical/dento/gallery/gallery-1.jpg')}}" class="venobox" data-gall="gallery-item">
+                <img src="{{asset('assets/img/medical/dento/gallery/gallery-1.jpg')}}" alt="" class="img-fluid">
+              </a>
             </div>
           </div>
-          <div class="recentblogs-item" data-aos="zoom-in" data-aos-delay="100">
-            <div class="recentblogs-img">
-              <img src="{{asset('assets/img/medical/demo1/blog/blog-2.jpg')}}" class="img-fluid">
-            </div>
-            <div class="row recentblogs-block">
-              <div class="col-lg-3 recentblogs-date">
-                <h5>15 <span>Aug</span></h5>
-              </div>
-              <div class="col-lg-9 recentblogs-content">
-                <h4>Sed do eiusmod tempor incididunt</h4>
-                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
-              </div>
-            </div>
-            <div class="recentblogs-btn">
-              <a href="" class="template-btn color1 color2">Full Story</a>
+
+          <div class="col-lg-3 col-md-4">
+            <div class="gallery-item" data-aos="zoom-in" data-aos-delay="150">
+              <a href="{{asset('assets/img/medical/dento/gallery/gallery-2.jpg')}}" class="venobox" data-gall="gallery-item">
+                <img src="{{asset('assets/img/medical/dento/gallery/gallery-2.jpg')}}" alt="" class="img-fluid">
+              </a>
             </div>
           </div>
-          <div class="recentblogs-item" data-aos="zoom-in" data-aos-delay="100">
-            <div class="recentblogs-img">
-              <img src="{{asset('assets/img/medical/demo1/blog/blog-3.jpg')}}" class="img-fluid">
-            </div>
-            <div class="row recentblogs-block">
-              <div class="col-lg-3 recentblogs-date">
-                <h5>16 <span>Aug</span></h5>
-              </div>
-              <div class="col-lg-9 recentblogs-content">
-                <h4>Sed do eiusmod tempor incididunt</h4>
-                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
-              </div>
-            </div>
-            <div class="recentblogs-btn">
-              <a href="" class="template-btn color1 color2">Full Story</a>
+
+          <div class="col-lg-3 col-md-4">
+            <div class="gallery-item" data-aos="zoom-in" data-aos-delay="200">
+              <a href="{{asset('assets/img/medical/dento/gallery/gallery-3.jpg')}}" class="venobox" data-gall="gallery-item">
+                <img src="{{asset('assets/img/medical/dento/gallery/gallery-3.jpg')}}" alt="" class="img-fluid">
+              </a>
             </div>
           </div>
+
+          <div class="col-lg-3 col-md-4">
+            <div class="gallery-item" data-aos="zoom-in" data-aos-delay="250">
+              <a href="{{asset('assets/img/medical/dento/gallery/gallery-4.jpg')}}" class="venobox" data-gall="gallery-item">
+                <img src="{{asset('assets/img/medical/dento/gallery/gallery-4.jpg')}}" alt="" class="img-fluid">
+              </a>
+            </div>
+          </div>
+
+          <div class="col-lg-3 col-md-4">
+            <div class="gallery-item" data-aos="zoom-in" data-aos-delay="300">
+              <a href="{{asset('assets/img/medical/dento/gallery/gallery-5.jpg')}}" class="venobox" data-gall="gallery-item">
+                <img src="{{asset('assets/img/medical/dento/gallery/gallery-5.jpg')}}" alt="" class="img-fluid">
+              </a>
+            </div>
+          </div>
+
+          <div class="col-lg-3 col-md-4">
+            <div class="gallery-item" data-aos="zoom-in" data-aos-delay="350">
+              <a href="{{asset('assets/img/medical/dento/gallery/gallery-6.jpg')}}" class="venobox" data-gall="gallery-item">
+                <img src="{{asset('assets/img/medical/dento/gallery/gallery-6.jpg')}}" alt="" class="img-fluid">
+              </a>
+            </div>
+          </div>
+
+          <div class="col-lg-3 col-md-4">
+            <div class="gallery-item" data-aos="zoom-in" data-aos-delay="400">
+              <a href="{{asset('assets/img/medical/dento/gallery/gallery-7.jpg')}}" class="venobox" data-gall="gallery-item">
+                <img src="{{asset('assets/img/medical/dento/gallery/gallery-7.jpg')}}" alt="" class="img-fluid">
+              </a>
+            </div>
+          </div>
+
+          <div class="col-lg-3 col-md-4">
+            <div class="gallery-item" data-aos="zoom-in" data-aos-delay="450">
+              <a href="{{asset('assets/img/medical/dento/gallery/gallery-8.jpg')}}" class="venobox" data-gall="gallery-item">
+                <img src="{{asset('assets/img/medical/dento/gallery/gallery-8.jpg')}}" alt="" class="img-fluid">
+              </a>
+            </div>
+          </div>
+
         </div>
+
       </div>
-    </section>
+    </section><!-- End Gallery Section -->
 
     <section id="doctors" class="doctors">
       <div class="section-title" data-aos="fade-down">
@@ -413,47 +429,6 @@
       </div>
     </section>
 
-    <section id="faq">
-      <div class="section-title" data-aos="fade-down">
-        <div class="icon"><img src="{{asset('assets/img/medical/demo1/nav/faq.png')}}" class="img-fluid"></div>
-        <h2>Frequently <span>Asked</span> Questions</h2>
-      </div>
-      <div class="container">
-        <div class="accordion">
-          <label class="faq-item" data-aos="fade-up" data-aos-delay="100">
-            <input type="checkbox" name="accordion">
-            <div class="faq-heading"><img src="{{asset('assets/img/medical/demo1/faq.png')}}" class="img-fluid"> Sed do eiusmod tempor incididunt?</div>
-            <div class="faq-desc"><p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p></div>
-          </label>
-          <label class="faq-item" data-aos="fade-up" data-aos-delay="200">
-            <input type="checkbox" name="accordion">
-            <div class="faq-heading"><img src="{{asset('assets/img/medical/demo1/faq.png')}}" class="img-fluid"> Sed do eiusmod tempor incididunt?</div>
-            <div class="faq-desc"><p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p></div>
-          </label>
-          <label class="faq-item" data-aos="fade-up" data-aos-delay="300">
-            <input type="checkbox" name="accordion">
-            <div class="faq-heading"><img src="{{asset('assets/img/medical/demo1/faq.png')}}" class="img-fluid"> Sed do eiusmod tempor incididunt?</div>
-            <div class="faq-desc"><p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p></div>
-          </label>
-          <label class="faq-item" data-aos="fade-up" data-aos-delay="400">
-            <input type="checkbox" name="accordion">
-            <div class="faq-heading"><img src="{{asset('assets/img/medical/demo1/faq.png')}}" class="img-fluid"> Sed do eiusmod tempor incididunt?</div>
-            <div class="faq-desc"><p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p></div>
-          </label>
-          <label class="faq-item" data-aos="fade-up" data-aos-delay="500">
-            <input type="checkbox" name="accordion">
-            <div class="faq-heading"><img src="{{asset('assets/img/medical/demo1/faq.png')}}" class="img-fluid"> Sed do eiusmod tempor incididunt?</div>
-            <div class="faq-desc"><p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p></div>
-          </label>
-          <label class="faq-item" data-aos="fade-up" data-aos-delay="600">
-            <input type="checkbox" name="accordion">
-            <div class="faq-heading"><img src="{{asset('assets/img/medical/demo1/faq.png')}}" class="img-fluid"> Sed do eiusmod tempor incididunt?</div>
-            <div class="faq-desc"><p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p></div>
-          </label>
-        </div>
-      </div>
-    </section>
-
     <section id="contactus" class="contactus">
       <div class="section-title" data-aos="fade-down">
         <div class="icon"><img src="{{asset('assets/img/medical/demo1/nav/contact.png')}}" class="img-fluid"></div>
@@ -492,131 +467,6 @@
                 <h4>Call Now</h4>
                 <p>xxx-xxx-xxxx</p>
               </div>
-            </div>
-          </div>
-        </div>
-      </div>
-    </section>
-
-    <section id="testimonials" class="testimonials">
-      <div class="section-title" data-aos="fade-down">
-        <div class="icon"><img src="{{asset('assets/img/medical/demo1/nav/review.png')}}" class="img-fluid"></div>
-        <h2>What <span>Patients</span> Saying..</h2>
-      </div>
-      <div class="container">
-        <div class="testimonial-carousel owl-carousel">
-          <div class="testimonial-block" data-aos="zoom-in" data-aos-delay="100">
-            <div class="row">
-              <div class="col-xl-12">
-              <div class="review-svg bubble bg-img design-1">
-                <p class="review-text-height" id="review-text-1">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo.</p>   
-              </div>    
-              </div>
-          
-              <div class="col-xl-12">
-              <cite>
-                <div class="box-top">
-                <div class="row" style="margin-left: 38px;">
-          
-                  <div class="col-12" style="margin-bottom: -12px">
-                  <div class="profile">
-                    <div class="profile-img">
-                    <img src="{{asset('assets/img/medical/demo1/rms/comments-1.jpg')}}" alt="" class="img-fluid">
-                    </div>
-                    <div class="name-user">
-                    <strong>Caroline Grant
-                      <img src="{{asset('assets/img/medical/demo1/google.png')}}" alt="from google" class="img-fluid" style="margin-left: 6px;"></strong>
-                    <span>One Month Ago</span>
-                    </div>
-                  </div>                  
-                  </div>
-          
-                  <div class="col-12">
-                  <div class="reviews">
-                    <div class="stars" data-percent="100"></div>  
-                  </div>             
-                  </div>
-                </div>
-                </div>   
-              </cite>                
-              </div>            
-            </div>
-          </div>
-
-          <div class="testimonial-block" data-aos="zoom-in" data-aos-delay="200">
-            <div class="row">
-              <div class="col-xl-12">
-              <div class="review-svg bubble bg-img design-4">
-                <p class="review-text-height" id="review-text-1">
-                Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo.</p>   
-              </div>    
-              </div>
-          
-              <div class="col-xl-12">
-              <cite>
-                <div class="box-top">
-                <div class="row" style="margin-left: 38px;">
-          
-                  <div class="col-12" style="margin-bottom: -12px">
-                  <div class="profile">
-                    <div class="profile-img">
-                    <img src="{{asset('assets/img/medical/demo1/rms/comments-2.jpg')}}" alt="" class="img-fluid">
-                    </div>
-                    <div class="name-user">
-                    <strong>Nathan Mullins
-                      <img src="{{asset('assets/img/medical/demo1/google.png')}}" alt="from google" class="img-fluid" width="25" style="margin-left: 6px;"></strong>
-                    <span>One Month Ago</span>
-                    </div>
-                  </div>                  
-                  </div>
-          
-                  <div class="col-12">
-                  <div class="reviews">
-                    <div class="stars" data-percent="100"></div>  
-                  </div>             
-                  </div>
-                </div>
-                </div>   
-              </cite>                
-              </div>            
-            </div>
-          </div>
-
-          <div class="testimonial-block" data-aos="zoom-in" data-aos-delay="300">
-            <div class="row">
-              <div class="col-xl-12">
-              <div class="review-svg bubble bg-img design-3">
-                <p class="review-text-height" id="review-text-1">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo.</p>   
-              </div>    
-              </div>
-          
-              <div class="col-xl-12">
-              <cite>
-                <div class="box-top">
-                <div class="row" style="margin-left: 38px;">
-          
-                  <div class="col-12 mt-2" style="margin-bottom: -12px">
-                  <div class="profile">
-                    <div class="profile-img">
-                    <img src="{{asset('assets/img/medical/demo1/rms/comments-3.jpg')}}" alt="" class="img-fluid">
-                    </div>
-                    <div class="name-user">
-                    <strong>Maria Angel
-                      <img src="{{asset('assets/img/medical/demo1/google.png')}}" alt="from google" class="img-fluid" width="25" style="margin-left: 6px;"></strong>
-                    <span>One Month Ago</span>
-                    </div>
-                  </div>                  
-                  </div>
-          
-                  <div class="col-12">
-                  <div class="reviews">
-                    <div class="stars" data-percent="100"></div>  
-                  </div>             
-                  </div>
-                </div>
-                </div>   
-              </cite>                
-              </div>            
             </div>
           </div>
         </div>
@@ -702,6 +552,7 @@
   <script src="{{asset('assets/vendor/jquery/jquery.min.js')}}"></script>
   <script src="{{asset('assets/vendor/bootstrap/js/bootstrap.bundle.min.js')}}"></script>
   <script src="{{asset('assets/vendor/jquery.easing/jquery.easing.min.js')}}"></script>
+  <script src="{{asset('assets/vendor/venobox/venobox.min.js')}}"></script>
   <script src="{{asset('assets/vendor/owl.carousel/owl.carousel.min.js')}}"></script>
   <script src="{{asset('assets/vendor/aos/aos.js')}}"></script>
   

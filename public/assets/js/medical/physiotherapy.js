@@ -109,48 +109,9 @@
     }
   });
 
-  // Blog carousel (uses the Owl Carousel library)
-  $(".recentblogs-carousel").owlCarousel({
-    autoplay: true,
-    dots: false,
-    loop: true,
-    margin:20,
-    animateOut: 'slideOutDown',
-    animateIn: 'fadeIn',
-    nav: false,
-    responsive: {
-      0: {
-        items: 1
-      },
-      768: {
-        items: 1
-      },
-      900: {
-        items: 1
-      }
-    }
-  });
-
-  // Testimonials carousel (uses the Owl Carousel library)
-  $('.testimonial-carousel').owlCarousel({
-    autoplay: true,
-    loop: true,
-    margin: 20,
-    dots: false,
-    nav: true,
-    smartSpeed: 1000,
-    responsiveClass: true,
-    responsive: {
-      0: {
-        items: 1
-      },
-      768: {
-        items: 1
-      },
-      900: {
-        items: 1
-      }
-    }
+  // Initiate the venobox plugin
+  $(window).on('load', function() {
+    $('.venobox').venobox();
   });
 
 })(jQuery);

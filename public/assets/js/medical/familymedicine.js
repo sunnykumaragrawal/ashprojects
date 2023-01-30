@@ -124,48 +124,6 @@
     }
   });
 
-  // Blog carousel (uses the Owl Carousel library)
-  $(".recentblogs-carousel").owlCarousel({
-    autoplay: true,
-    dots: false,
-    nav: false,
-    loop: true,
-    margin:25,
-    responsive: {
-      0: {
-        items: 1
-      },
-      768: {
-        items: 2
-      },
-      900: {
-        center: true,
-        items: 3
-      }
-    }
-  });
-
-  // Testimonials carousel (uses the Owl Carousel library)
-  $(".testimonial-carousel").owlCarousel({
-    autoplay: true,
-    dots: false,
-    nav: false,
-    loop: true,
-    margin:25,
-    responsive: {
-      0: {
-        items: 1
-      },
-      768: {
-        items: 2
-      },
-      900: {
-        center: true,
-        items: 3
-      }
-    }
-  });
-
   // Social Media carousel (uses the Owl Carousel library)
   $(".socialmedia-carousel").owlCarousel({
     autoplay: true,
@@ -183,6 +141,11 @@
         items: 6
       }
     }
+  });
+
+  // Initiate the venobox plugin
+  $(window).on('load', function() {
+    $('.venobox').venobox();
   });
 
 })(jQuery);
