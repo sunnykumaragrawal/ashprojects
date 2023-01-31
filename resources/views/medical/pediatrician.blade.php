@@ -21,6 +21,8 @@
 </head>
 <body>
 
+	<a href="https://api.whatsapp.com/send?phone=917770951212" target="_blank" class="whatsapp-btn"><img src="{{asset('assets/img/medical/dento/whatsapp.png')}}" class="img-fluid"></a>
+
 	<!-- Offcanvas Menu Section -->
 	<div class="menu-wrapper">
 		<div class="menu-switch"><i class="ti-menu"></i></div>

@@ -121,20 +121,13 @@
     })
   });
 
-  // Back to top button
+  // whatsapp-btn
   $(window).scroll(function() {
     if ($(this).scrollTop() > 100) {
-      $('.back-to-top').addClass('showbacktop');
+      $('.whatsapp-btn').addClass('showbacktop');
     } else {
-      $('.back-to-top').removeClass('showbacktop');
+      $('.whatsapp-btn').removeClass('showbacktop');
     }
-  });
-
-  $('.back-to-top').click(function() {
-    $('html, body').animate({
-      scrollTop: 0
-    }, 1500, 'easeInOutExpo');
-    return false;
   });
 
   // Initiate the venobox plugin

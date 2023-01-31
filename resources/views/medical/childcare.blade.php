@@ -21,7 +21,7 @@
 
 <body>
 
-  <a href="#" class="back-to-top"><i class="icofont-arrow-up"></i><span>Back To Top</span></a>
+  <a href="https://api.whatsapp.com/send?phone=917770951212" target="_blank" class="whatsapp-btn"><img src="{{asset('assets/img/medical/dento/whatsapp.png')}}" class="img-fluid"></a>
 
   <!-- ======= Header ======= -->
   <header id="header" class="d-flex align-items-center header-transparent">

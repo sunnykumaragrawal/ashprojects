@@ -23,7 +23,7 @@
 
 <body>
 
-  <a href="#" class="back-to-top"><i class="icofont-arrow-up"></i></a>
+  <a href="https://api.whatsapp.com/send?phone=917770951212" target="_blank" class="whatsapp-btn"><img src="{{asset('assets/img/medical/dento/whatsapp.png')}}" class="img-fluid"></a>
 
   <!-- ======= Header ======= -->
   <header id="header" class="d-flex align-items-center header-transparent">
@@ -57,16 +57,16 @@
               <h1>Welcome to Dento</h1>
               <h2>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam.</h2>
               <div class="hero-btns">
-                <a href="" class="herobtn1">Call Now</a>
-                <a href="" class="herobtn2">Send An Email</a>
+                <a href="tel:7770951212" class="herobtn1">Call Now</a>
+                <a href="mailto:sunny.agarwal865@gmail.com" class="herobtn2">Send An Email</a>
               </div>
             </div>
             <div class="hero-item">
               <h1>Top Dental Services</h1>
               <h2>Quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse.</h2>
               <div class="hero-btns">
-                <a href="#services" class="herobtn1">Our Services</a>
-                <a href="#aboutus" class="herobtn2">Learn More</a>
+                <a href="#aboutus" class="herobtn1">Learn More</a>
+                <a href="#services" class="herobtn2">Our Services</a>
               </div>
             </div>
           </div>

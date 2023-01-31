@@ -73,61 +73,40 @@ a:hover {
 }
 
 /*--------------------------------------------------------------
-# Select language button
+# whatsapp-btn
 --------------------------------------------------------------*/
-#google_translate_element2 {display:none!important;}
-
-/*--------------------------------------------------------------
-# Back to top button
---------------------------------------------------------------*/
-.back-to-top {
+.whatsapp-btn {
   position: fixed;
-  display: none;
-  width: 40px;
-  height: 40px;
-  border-radius: 50px;
-  right: 15px;
-  bottom: 15px;
-  background: #568203;
-  color: #fff;
-  transition: display 0.5s ease-in-out;
-  z-index: 99999;
-  animation: backtop 2s linear infinite;
+  opacity: 0;
+  width: 50px;
+  height: 50px;
+  right: 12px;
+  bottom: 12px;
+  z-index: 11;
 }
 
-@keyframes backtop {
-  0% {
-    transform: scale(1.1) translateY(0);
+.whatsapp-btn.showbacktop{
+  opacity: 1;
+}
+
+.whatsapp-btn img {
+  max-height: 50px;
+}
+
+@media(max-width: 767px){
+  .whatsapp-btn {
+    width: 35px;
+    height: 35px;
+    right: 10px;
+    bottom: 10px;
   }
-  20% {
-    transform: scale(1.1) translateY(-10px);
-  }
-  30% {
-    transform: scale(1.1) translateY(10px);
-  }
-  50% {
-    transform: scale(1.1) translateY(-10px);
-  }
-  60% {
-    transform: scale(1.1) translateY(10px);
-  }
-  100% {
-    transform: scale(1.1) translateY(0);
+
+  .whatsapp-btn img {
+    max-height: 35px;
   }
 }
 
-.back-to-top i {
-  font-size: 24px;
-  position: absolute;
-  top: 7px;
-  left: 8px;
-}
-
-.back-to-top:hover {
-  color: #fff;
-  background: #0678e3;
-  transition: background 0.2s ease-in-out;
-}
+@media(min-width: 768px) and (max-width: 991px){}
 
 /*--------------------------------------------------------------
 # Disable aos animation delay on mobile devices

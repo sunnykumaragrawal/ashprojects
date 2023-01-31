@@ -33,63 +33,38 @@ a,a:hover{
 }
 
 /*--------------------------------------------------------------
-# Back to top button
+# whatsapp-btn
 --------------------------------------------------------------*/
-.back-to-top {
+.whatsapp-btn {
   position: fixed;
   opacity: 0;
-  width: 40px;
-  height: 40px;
-  border-radius: 50px;
-  right: 15px;
-  bottom: 15px;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  background: #fd990c;
-  color: #fff;
-  transition: display 0.5s ease-in-out;
-  z-index: 99999;
-  animation: backtop 2s linear infinite;
+  width: 50px;
+  height: 50px;
+  right: 12px;
+  bottom: 12px;
+  z-index: 11;
 }
 
-.back-to-top.showbacktop{
+.whatsapp-btn.showbacktop{
   opacity: 1;
 }
 
-@keyframes backtop {
-  0% {
-    transform: scale(1.1) translateY(0);
-  }
-  20% {
-    transform: scale(1.1) translateY(-10px);
-  }
-  30% {
-    transform: scale(1.1) translateY(10px);
-  }
-  50% {
-    transform: scale(1.1) translateY(-10px);
-  }
-  60% {
-    transform: scale(1.1) translateY(10px);
-  }
-  100% {
-    transform: scale(1.1) translateY(0);
-  }
+.whatsapp-btn img {
+  max-height: 50px;
 }
 
-.back-to-top i {
-  font-size: 24px;
-  position: absolute;
-}
+@media(max-width: 767px){
+  .whatsapp-btn {
+    width: 35px;
+    height: 35px;
+    right: 10px;
+    bottom: 10px;
+  }
 
-.back-to-top:hover {
-  color: #fff;
-  background: #fd990c;
-  transition: background 0.2s ease-in-out;
+  .whatsapp-btn img {
+    max-height: 35px;
+  }
 }
-
-@media(max-width: 767px){}
 
 @media(min-width: 768px) and (max-width: 991px){}
 

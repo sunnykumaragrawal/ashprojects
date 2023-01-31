@@ -1,6 +1,15 @@
 !(function($) {
   "use strict";
 
+  // whatsapp-btn
+  $(window).scroll(function() {
+    if ($(this).scrollTop() > 100) {
+      $('.whatsapp-btn').addClass('showbacktop');
+    } else {
+      $('.whatsapp-btn').removeClass('showbacktop');
+    }
+  });
+
   // Toggle .header-scrolled class to #header when page is scrolled
   $(window).scroll(function() {
     if ($(this).scrollTop() > 400) {

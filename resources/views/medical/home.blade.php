@@ -108,7 +108,7 @@
                 <img src="{{asset('assets/img/medical/home/dento.PNG')}}" class="img-fluid">
               </div>
               <div class="template-view">
-                <a href="{{route('medicalDento')}}" target="_blank">View Demo</a>
+                <a href="{{route('medicalDento')}}" target="_blank">Live Demo</a>
               </div>
             </div>
           </div>
@@ -118,7 +118,7 @@
                 <img src="{{asset('assets/img/medical/home/childcare.PNG')}}" class="img-fluid">
               </div>
               <div class="template-view">
-                <a href="{{route('medicalChildcare')}}" target="_blank">View Demo</a>
+                <a href="{{route('medicalChildcare')}}" target="_blank">Live Demo</a>
               </div>
             </div>
           </div>
@@ -128,7 +128,7 @@
                 <img src="{{asset('assets/img/medical/home/physio.PNG')}}" class="img-fluid">
               </div>
               <div class="template-view">
-                <a href="{{route('medicalPhysiotherapy')}}" target="_blank">View Demo</a>
+                <a href="{{route('medicalPhysiotherapy')}}" target="_blank">Live Demo</a>
               </div>
             </div>
           </div>
@@ -138,7 +138,7 @@
                 <img src="{{asset('assets/img/medical/home/fammed.PNG')}}" class="img-fluid">
               </div>
               <div class="template-view">
-                <a href="{{route('medicalFamilymedicine')}}" target="_blank">View Demo</a>
+                <a href="{{route('medicalFamilymedicine')}}" target="_blank">Live Demo</a>
               </div>
             </div>
           </div>
@@ -148,7 +148,7 @@
                 <img src="{{asset('assets/img/medical/home/dentista.PNG')}}" class="img-fluid">
               </div>
               <div class="template-view">
-                <a href="{{route('medicalDentista')}}" target="_blank">View Demo</a>
+                <a href="{{route('medicalDentista')}}" target="_blank">Live Demo</a>
               </div>
             </div>
           </div>
@@ -158,7 +158,7 @@
                 <img src="{{asset('assets/img/medical/home/chiropractor.PNG')}}" class="img-fluid">
               </div>
               <div class="template-view">
-                <a href="{{route('medicalChiropractor')}}" target="_blank">View Demo</a>
+                <a href="{{route('medicalChiropractor')}}" target="_blank">Live Demo</a>
               </div>
             </div>
           </div>
@@ -168,7 +168,7 @@
                 <img src="{{asset('assets/img/medical/home/pediatrician.PNG')}}" class="img-fluid">
               </div>
               <div class="template-view">
-                <a href="{{route('medicalPediatrician')}}" target="_blank">View Demo</a>
+                <a href="{{route('medicalPediatrician')}}" target="_blank">Live Demo</a>
               </div>
             </div>
           </div>
@@ -178,7 +178,7 @@
                 <img src="{{asset('assets/img/medical/home/medicalcare.PNG')}}" class="img-fluid">
               </div>
               <div class="template-view">
-                <a href="{{route('medicalDemo1')}}" target="_blank">View Demo</a>
+                <a href="{{route('medicalDemo1')}}" target="_blank">Live Demo</a>
               </div>
             </div>
           </div>
@@ -188,7 +188,7 @@
                 <img src="{{asset('assets/img/medical/home/dentcare.PNG')}}" class="img-fluid">
               </div>
               <div class="template-view">
-                <a href="{{route('medicalDentcare')}}" target="_blank">View Demo</a>
+                <a href="{{route('medicalDentcare')}}" target="_blank">Live Demo</a>
               </div>
             </div>
           </div>
@@ -198,7 +198,7 @@
                 <img src="{{asset('assets/img/medical/home/babycare.PNG')}}" class="img-fluid">
               </div>
               <div class="template-view">
-                <a href="{{route('medicalBabycare')}}" target="_blank">View Demo</a>
+                <a href="{{route('medicalBabycare')}}" target="_blank">Live Demo</a>
               </div>
             </div>
           </div>
@@ -293,7 +293,7 @@
     </div>
   </footer>
 
-  <a href="#" class="back-to-top"><i class="icofont-simple-up"></i></a>
+  <a href="https://api.whatsapp.com/send?phone=917770951212" target="_blank" class="whatsapp-btn"><img src="{{asset('assets/img/medical/dento/whatsapp.png')}}" class="img-fluid"></a>
   
   <!-- Vendor JS Files -->
   <script src="{{asset('assets/vendor/jquery/jquery.min.js')}}"></script>
