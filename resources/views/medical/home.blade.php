@@ -105,6 +105,16 @@
           <div class="col-md-6">
             <div class="template-box">
               <div class="template-img">
+                <img src="{{asset('assets/img/medical/home/mediplus.PNG')}}" class="img-fluid">
+              </div>
+              <div class="template-view">
+                <a href="{{route('medicalMediplus')}}" target="_blank">Live Demo</a>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-6">
+            <div class="template-box">
+              <div class="template-img">
                 <img src="{{asset('assets/img/medical/home/dento.PNG')}}" class="img-fluid">
               </div>
               <div class="template-view">

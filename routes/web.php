@@ -21,6 +21,11 @@ Route::get('/medical', function () {
     return view('medical.home');
 });
 
+/* v37 */
+Route::get('/medical/mediplus', function () {
+    return view('medical.mediplus');
+})->name('medicalMediplus');
+
 /* v34 */
 Route::get('/medical/dento', function () {
     return view('medical.dento');
