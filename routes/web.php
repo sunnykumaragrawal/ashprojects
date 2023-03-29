@@ -14,64 +14,9 @@ use Illuminate\Support\Facades\Route;
 */
 
 Route::get('/', function () {
-    return view('medical.home');
+    return view('packers.demo1');
 });
 
-Route::get('/medical', function () {
-    return view('medical.home');
+Route::get('/packers-movers/demo1', function () {
+    return view('packers.demo1');
 });
-
-/* v37 */
-Route::get('/medical/mediplus', function () {
-    return view('medical.mediplus');
-})->name('medicalMediplus');
-
-/* v34 */
-Route::get('/medical/dento', function () {
-    return view('medical.dento');
-})->name('medicalDento');
-
-/* v35 */
-Route::get('/medical/childcare', function () {
-    return view('medical.childcare');
-})->name('medicalChildcare');
-
-/* v33 */
-Route::get('/medical/physiotherapy', function () {
-    return view('medical.physiotherapy');
-})->name('medicalPhysiotherapy');
-
-/* v32 */
-Route::get('/medical/familymedicine', function () {
-    return view('medical.familymedicine');
-})->name('medicalFamilymedicine');
-
-/* v30 */
-Route::get('/medical/dentista', function () {
-    return view('medical.dentista');
-})->name('medicalDentista');
-
-/* v29 */
-Route::get('/medical/chiropractor', function () {
-    return view('medical.chiropractor');
-})->name('medicalChiropractor');
-
-/* v28 */
-Route::get('/medical/pediatrician', function () {
-    return view('medical.pediatrician');
-})->name('medicalPediatrician');
-
-/* v31 */
-Route::get('/medical/demo1', function () {
-    return view('medical.demo1');
-})->name('medicalDemo1');
-
-/* v27 */
-Route::get('/medical/dentcare', function () {
-    return view('medical.dentcare');
-})->name('medicalDentcare');
-
-/* v26 */
-Route::get('/medical/babycare', function () {
-    return view('medical.babycare');
-})->name('medicalBabycare');
