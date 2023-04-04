@@ -20,3 +20,7 @@ Route::get('/', function () {
 Route::get('/packers-movers/demo1', function () {
     return view('packers.demo1');
 });
+
+Route::get('/dsunshinepackersandmovers', function () {
+    return view('dsunshine');
+});
