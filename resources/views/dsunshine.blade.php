@@ -4,6 +4,7 @@
 <head>
   <meta charset="utf-8">
   <meta content="width=device-width, initial-scale=1.0" name="viewport">
+  <meta name="robots" content="noindex">
 
   <title>D sunshine packers and movers</title>
   <!-- Vendor CSS Files -->
@@ -366,7 +367,7 @@
                   </div>
                   <div class="contact-content">
                     <h5>Phone</h5>
-                    <p>9407936002</p>
+                    <p>9407936002<br>9770743594</p>
                   </div>
                 </div>
               </div>

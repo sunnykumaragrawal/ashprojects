@@ -4,7 +4,8 @@
 <head>
   <meta charset="utf-8">
   <meta content="width=device-width, initial-scale=1.0" name="viewport">
-
+  <meta name="robots" content="noindex">
+  
   <title>Packers and Mover - Demo1</title>
   <!-- Favicons -->
   <!-- Vendor CSS Files -->
