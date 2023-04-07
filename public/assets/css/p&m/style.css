@@ -1,0 +1,590 @@
+@import url('https://fonts.googleapis.com/css2?family=Jost:wght@400;500;600;700&display=swap');
+
+body {
+  font-family: 'Jost', sans-serif !important;
+  color: #444444;
+}
+
+a {
+  color: #25806F;
+}
+
+a:hover {
+  color: #00cc95;
+  text-decoration: none;
+}
+
+/*--------------------------------------------------------------
+# whatsapp-btn
+--------------------------------------------------------------*/
+.whatsapp-btn {
+  position: fixed;
+  opacity: 0;
+  width: 50px;
+  height: 50px;
+  right: 12px;
+  bottom: 12px;
+  z-index: 11;
+}
+
+.whatsapp-btn.showbacktop{
+  opacity: 1;
+}
+
+.whatsapp-btn img {
+  max-height: 50px;
+}
+
+@media(max-width: 767px){
+  .whatsapp-btn {
+    width: 35px;
+    height: 35px;
+    right: 10px;
+    bottom: 10px;
+  }
+
+  .whatsapp-btn img {
+    max-height: 35px;
+  }
+}
+
+@media(min-width: 768px) and (max-width: 991px){}
+
+/*--------------------------------------------------------------
+# Disable AOS delay on mobile
+--------------------------------------------------------------*/
+@media screen and (max-width: 768px) {
+  [data-aos-delay] {
+    transition-delay: 0 !important;
+  }
+}
+
+/*--------------------------------------------------------------
+# Header
+--------------------------------------------------------------*/
+#header {
+  height: 80px;
+  padding: 20px 0;
+  z-index: 10;
+  position: relative;
+  background-color: #25806F;
+  display: none;
+}
+
+#header.header-scrolled {
+  display: block;
+  position: fixed;
+  top: 0;
+  width: 100%;
+  box-shadow: 0px 10px 23px -8px rgba(0, 0, 0, 0.35);
+}
+
+#header .logo{
+  background-color: #fff;
+  border-radius: 5px;
+  margin: -20px 0;
+  height: 80px;
+  padding: 20px;
+}
+
+#header .logo img {
+  padding: 0;
+  margin: 0;
+  max-height: 40px;
+}
+
+@media(max-width: 767px){}
+
+@media(min-width: 768px) and (max-width: 991px){}
+
+/*--------------------------------------------------------------
+# Navigation Menu
+--------------------------------------------------------------*/
+.nav-menu {
+  position: fixed;
+  top: 0;
+  left: -100vw;
+  bottom: 0;
+  height: 100vh;
+  width: 100vw;
+  z-index: 9998;
+  overflow-y: auto;
+  background: rgba(0, 0, 0, 0.4);
+  transition: all 0.5s ease-in-out;
+}
+
+.nav-menu * {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+.nav-title{
+  background-color: #25806F !important;
+  color: #fff !important;
+  font-size: 28px !important;
+}
+
+.nav-title img{
+  max-height: 40px;
+}
+
+.nav-menu a {
+  display: block;
+  text-align: center;
+  position: relative;
+  color: #000;
+  border: 1px dashed #25806F;
+  padding: 20px 20px 10px;
+  font-weight: 700;
+  font-size: 20px;
+  transition: all 0.5s ease-in-out;
+  width: 300px;
+  height: 12.5vh;
+  background-color: #fff;
+}
+
+.nav-menu a img{
+  max-height: 35px;
+  margin-right: 15px;
+}
+
+.nav-menu a span{
+  padding-top: 15px;
+}
+
+.nav-menu a:hover, .nav-menu .active > a, .nav-menu li:hover > a {
+  color: #25806F;
+  text-decoration: none;
+}
+
+.nav-menu-active {
+  top: 0;
+  left: 0;
+}
+
+.nav-toggle {
+  background: transparent;
+  float: right;
+  border: 0;
+  transition: all 0.5s ease-in-out;
+  outline: none !important;
+  line-height: 1;
+  cursor: pointer;
+  text-align: right;
+  border-radius: 2px;
+}
+
+.nav-toggle i {
+  color: #fff;
+  font-size: 40px;
+  font-weight: 600;
+}
+
+.nav-toggle-active {
+  position: fixed;
+  right: 25px;
+  top: 25px;
+  z-index: 9999;
+}
+
+.nav-toggle-active i{
+  font-size: 56px;
+  font-weight: 600;
+}
+
+@media(max-width: 767px){
+  .nav-title{
+    background-color: #25806F !important;
+    color: #fff !important;
+    font-size: 20px !important;
+  }
+  .nav-menu a {
+    padding: 20px 20px 10px;
+    font-size: 20px;
+    width: 100vw;
+    height: 12.5vh;
+  }
+  .nav-toggle-active {
+    right: 15px;
+    top: 15px;
+  }
+
+  .nav-toggle-active i{
+    font-size: 36px;
+    font-weight: 600;
+  }
+}
+
+@media(min-width: 768px) and (max-width: 991px){}
+
+/*--------------------------------------------------------------
+# Hero Section
+--------------------------------------------------------------*/
+#hero {
+  padding: 0 0 !important;
+  width: 100%;
+  background-color: #25806F;
+  position: relative;
+  z-index: 9;
+  overflow: hidden;
+}
+
+.hero-carousel{
+  overflow: hidden;
+}
+
+.hero-content{
+  padding: 50px 30px 50px 70px;
+  overflow: hidden;
+}
+
+.hero-content p{
+  color:#fff;
+  font-size: 18px;
+  font-weight: 500;
+  margin-bottom: 10px;
+}
+
+.hero-content h1{
+  font-weight: 700;
+  letter-spacing: 1.2px;
+  word-spacing: 5px;
+  font-size: 48px;
+  text-transform: uppercase;
+  color:#fff;
+  line-height:64px;
+  margin-bottom: 35px;
+}
+
+.hero-btn1{
+  margin-right: 15px;
+  border: 2px solid #fff !important;
+}
+
+.hero-btn2{
+  border: 2px solid #fff !important;
+}
+
+.hero-img{
+  padding: 80px;
+  overflow: hidden;
+}
+
+@media(min-width: 992px){
+  #hero{
+    height: 100vh;
+  }
+  .hero-content{
+    min-height: 60vh;
+    margin-top: 20vh;
+  }
+  .hero-img{
+    max-height: 100vh;
+  }
+}
+
+@media(max-width: 767px){
+  #hero {
+    animation: none;
+  }
+
+  .hero-content{
+    margin-top: 10px;
+    text-align: center;
+    padding: 20px 20px 40px 20px;
+  }
+
+  .hero-content p{
+    margin-bottom:10px;
+  }
+
+  .hero-content h1{
+    letter-spacing: 1.1px;
+    word-spacing: 4px;
+    font-size: 28px;
+    line-height:40px;
+    margin-bottom: 25px;
+  }
+
+  .hero-btn1{
+    font-size: 13px !important;
+    padding: 8px 10px !important;
+    margin-right: 10px;
+    border: 1px solid #fff !important;
+  }
+
+  .hero-btn2{
+    font-size: 13px !important;
+    padding: 8px 10px !important;
+    border: 1px solid #fff !important;
+  }
+
+  .hero-img{
+    padding: 10px 30px;
+  }
+}
+
+@media(min-width: 768px) and (max-width: 991px){
+  #hero {
+    animation: none;
+  }
+
+  .hero-content{
+    text-align: center;
+    padding: 50px 30px 70px 30px;
+  }
+
+  .hero-img{
+    padding: 40px;
+  }
+}
+
+/*--------------------------------------------------------------
+# Template Btns
+--------------------------------------------------------------*/
+.template-btn1, .template-btn2:hover{
+  background-color: #25806F;
+}
+
+.template-btn1 {
+  display: inline-block;
+  padding: 13.5px 45px;
+  border-radius: 50px;
+  font-size: 16px;
+  color: #fff;
+  transition: all 0.5s ease-in-out;
+  text-transform: uppercase;
+  background-size: 200% auto;
+  border: 1px solid transparent;
+  box-shadow: 0px 12px 20px 0px rgba(255, 126, 95, 0.15);
+}
+
+.template-btn1:hover {
+  color: #fff !important;
+  background-position: right center;
+  box-shadow: 0px 10px 30px 0px rgba(193, 34, 10, 0.2);
+}
+
+.template-btn2 {
+  display: inline-block;
+  padding: 13px 39px;
+  border-radius: 50px;
+  background-color: #fff;
+  border: 1px solid #0c2e60;
+  color: #0c2e60;
+  font-size: 16px;
+  transition: all 0.5s ease-in-out;
+  text-transform: uppercase;
+  background-size: 200% auto;
+  font-size: 15px;
+  font-weight: 500;
+}
+
+.template-btn2:hover {
+  color: #fff !important;
+  background-position: right center;
+  border: 1px solid transparent;
+}
+
+@media(max-width: 767px){}
+
+@media(min-width: 768px) and (max-width: 991px){}
+
+/*--------------------------------------------------------------
+# Sections General
+--------------------------------------------------------------*/
+section {
+  padding: 60px 0;
+  overflow: hidden;
+}
+
+.section-bg {
+  background-color: #f6f6f7; /* #f6f6f7 */
+}
+
+.section-title {
+  padding-bottom: 30px;
+  text-align: center;
+}
+
+.section-title h2 {
+  font-size: 48px;
+  font-weight: 700;
+  text-transform: uppercase;
+  margin-bottom: 20px;
+  padding-bottom: 20px;
+  position: relative;
+}
+
+@media(max-width: 767px){
+  .section-title h2
+  {
+    font-size: 26px;
+  }
+}
+
+.section-title h2::after {
+  content: '';
+  position: absolute;
+  display: block;
+  width: 50px;
+  height: 3px;
+  background: #25806F;
+  bottom: 0;
+  left: 50%;
+  margin-left: -25px;
+}
+
+.section-title p {
+  margin-bottom: 0;
+  font-size: 20px;
+}
+
+/*--------------------------------------------------------------
+# Template Box
+--------------------------------------------------------------*/
+.template-box{
+  box-shadow: 0 5px 5px 5px rgba(0, 0, 0, 0.4);
+  margin-bottom: 40px;
+}
+
+.template-view a{
+  display: block;
+  border: 5px solid #25806F;
+  padding: 15px;
+  font-weight: 700;
+  font-size: 20px;
+  text-align: center;
+  text-transform: uppercase;
+  margin-top: 5px;
+  background-color: #fff;
+  color: #25806F;
+  transition: all 0.5s ease-in-out;
+}
+
+.template-view a:hover{
+  background-color: #25806F;
+  color: #fff;
+}
+
+/*--------------------------------------------------------------
+# Footer
+--------------------------------------------------------------*/
+#footer{
+  overflow: hidden;
+}
+
+.footer-top {
+  position: relative;
+  background-color: #161616;
+  padding: 75px 0;
+}
+
+.footer-top img {
+  width: 100%;
+}
+
+.footer-top ul {
+  padding: 0;
+}
+
+.footer-top ul li {
+  list-style-type: none;
+  margin: 10px 0;
+}
+
+.footer-top ul li a,
+.footer-top ul li a:hover {
+  color: #fff;
+}
+
+.footer-top h5 {
+  margin-bottom: 12px;
+  font-size: 22px;
+  color: #fff;
+  border-bottom: 2px solid #feb543;
+}
+
+.footer-top .social-box {
+  margin: 25px 0;
+}
+
+.footer-top .social-box a {
+  width: 50px;
+  height: 50px;
+  display: inline-flex;
+  justify-content: center;
+  align-items: center;
+  margin-right: 10px;
+}
+
+.footer-top .social-box a:hover{
+  color: #fff;
+}
+
+.form_container form {
+  display: flex;
+  align-items: center;
+}
+
+.footer-top .form_container label {
+  margin: 0;
+  font-size: 18px;
+  text-transform: uppercase;
+  color: #fff;
+}
+
+.footer-top .form_container input {
+  width: 300px;
+  height: 40px;
+  border-radius: 5px;
+  border: none;
+  outline: none;
+  padding-left: 15px;
+  background-color: #fff;
+  margin-left: 45px;
+  margin-right: 10px;
+}
+
+.footer-top .form_container button {
+  background-color: #fd990c;
+  border: none;
+  outline: none;
+  color: #fff;
+  padding: 8px 50px;
+  text-transform: uppercase;
+  font-size: 16px;
+  border-radius: 5px;
+  text-transform: uppercase;
+}
+
+.copyright {
+  background-color: #ffffff;
+  padding: 25px 20px;
+}
+
+.copyright p {
+  color: #292929;
+  margin: 0;
+  text-align: center;
+}
+
+.copyright a {
+  color: #292929;
+}
+
+@media(max-width: 767px){
+  .footer-top .form_container label{
+    display: none;
+  }
+
+  .footer-top .form_container input {
+    width: 150px;
+    padding-left: 15px;
+    margin-left: 10px;
+    margin-right: 10px;
+  }
+}
+
+@media(min-width: 768px) and (max-width: 991px){} 

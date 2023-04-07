@@ -4,10 +4,9 @@
 <head>
   <meta charset="utf-8">
   <meta content="width=device-width, initial-scale=1.0" name="viewport">
-  <meta name="robots" content="noindex">
+  <meta name="robots" content="none">
   
   <title>Packers and Mover - Demo1</title>
-  <!-- Favicons -->
   <!-- Vendor CSS Files -->
   <link href="{{asset('assets/vendor/bootstrap/css/bootstrap.min.css')}}" rel="stylesheet">
   <link href="{{asset('assets/vendor/bootstrap-icons/bootstrap-icons.css')}}" rel="stylesheet">
@@ -17,7 +16,7 @@
    <link href="{{asset('assets/vendor/venobox/venobox.css')}}" rel="stylesheet">
   
   <!-- Template Main CSS File -->
-  <link href="{{asset('assets/css/style.css')}}" rel="stylesheet">
+  <link href="{{asset('assets/css/p&m/style1.css')}}" rel="stylesheet">
   <link href="{{asset('assets/css/animate.css')}}" rel="stylesheet">
   <link href="https://use.fontawesome.com/releases/v5.8.2/css/all.css" rel="stylesheet">
 </head>
@@ -125,14 +124,14 @@
           <div class="col-lg-4">
             <div class="row">
               <div class="col-lg-12 about-item" id="about1" data-aos="zoom-in">
-                <div class="about-icon"><img src="{{asset('assets/img/p&m/demo1/about/professionals.png')}}" class="img-fluid"></div>
+                <div class="about-icon"><img src="{{asset('assets/img/p&m/demo1/about/icon1.png')}}" class="img-fluid"></div>
                 <h5>Professionals</h5>
                 <div class="about-desc" id="about1">
                   <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
                 </div>
               </div>
               <div class="col-lg-12 about-item" id="about2" data-aos="zoom-in">
-                <div class="about-icon"><img src="{{asset('assets/img/p&m/demo1/about/affordable.png')}}" class="img-fluid"></div>
+                <div class="about-icon"><img src="{{asset('assets/img/p&m/demo1/about/icon2.png')}}" class="img-fluid"></div>
                 <h5>Affordable</h5>
                 <div class="about-desc" id="about2">
                   <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
@@ -142,7 +141,7 @@
           </div>
           <div class="col-lg-4 d-flex align-items-center pl-lg-4">
             <div class="about-item" id="about3" data-aos="zoom-in">
-              <div class="about-icon"><img src="{{asset('assets/img/p&m/demo1/about/customer-support.png')}}" class="img-fluid"></div>
+              <div class="about-icon"><img src="{{asset('assets/img/p&m/demo1/about/icon3.png')}}" class="img-fluid"></div>
               <h5>24x7 Support</h5>
               <div class="about-desc" id="about3">
                 <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
@@ -164,7 +163,7 @@
             <div class="col-lg-6" data-aos="zoom-in" data-aos-delay="100">
               <div class="row service-item">
                 <div class="col-md-6 service-img">
-                  <img src="{{asset('assets/img/p&m/demo1/service/home-relocation.png')}}" class="img-fluid">
+                  <img src="{{asset('assets/img/p&m/demo1/service/image1.png')}}" class="img-fluid">
                 </div>
                 <div class="col-md-6 service-content">
                   <h5>Home Relocation</h5>
@@ -175,7 +174,7 @@
             <div class="col-lg-6" data-aos="zoom-in" data-aos-delay="100">
               <div class="row service-item">
                 <div class="col-md-6 service-img order-lg-1 order-md-2">
-                  <img src="{{asset('assets/img/p&m/demo1/service/office-relocation.png')}}" class="img-fluid">
+                  <img src="{{asset('assets/img/p&m/demo1/service/image2.png')}}" class="img-fluid">
                 </div>
                 <div class="col-md-6 service-content order-lg-2 order-md-1">
                   <h5>Office Relocation</h5>
@@ -186,7 +185,7 @@
             <div class="col-lg-6" data-aos="zoom-in" data-aos-delay="100">
               <div class="row service-item">
                 <div class="col-md-6 service-img order-lg-2">
-                  <img src="{{asset('assets/img/p&m/demo1/service/packing-unpacking.png')}}" class="img-fluid">
+                  <img src="{{asset('assets/img/p&m/demo1/service/image3.png')}}" class="img-fluid">
                 </div>
                 <div class="col-md-6 service-content order-lg-1">
                   <h5>Packing & Unpacking</h5>
@@ -197,7 +196,7 @@
             <div class="col-lg-6" data-aos="zoom-in" data-aos-delay="100">
               <div class="row service-item">
                 <div class="col-md-6 service-img order-md-2">
-                  <img src="{{asset('assets/img/p&m/demo1/service/loading-unloading.png')}}" class="img-fluid">
+                  <img src="{{asset('assets/img/p&m/demo1/service/image4.png')}}" class="img-fluid">
                 </div>
                 <div class="col-md-6 service-content order-md-1">
                   <h5>Loading & Unloading</h5>
@@ -218,7 +217,7 @@
             <div class="col-lg-6">
               <div class="row service-item">
                 <div class="col-md-6 service-img">
-                  <img src="{{asset('assets/img/p&m/demo1/service/bike-relocation.png')}}" class="img-fluid">
+                  <img src="{{asset('assets/img/p&m/demo1/service/image5.png')}}" class="img-fluid">
                 </div>
                 <div class="col-md-6 service-content">
                   <h5>Bike Relocation</h5>
@@ -229,7 +228,7 @@
             <div class="col-lg-6">
               <div class="row service-item">
                 <div class="col-md-6 service-img order-lg-1 order-md-2">
-                  <img src="{{asset('assets/img/p&m/demo1/service/car-relocation.png')}}" class="img-fluid">
+                  <img src="{{asset('assets/img/p&m/demo1/service/image6.png')}}" class="img-fluid">
                 </div>
                 <div class="col-md-6 service-content order-lg-2 order-md-1">
                   <h5>Car Relocation</h5>
@@ -240,7 +239,7 @@
             <div class="col-lg-6">
               <div class="row service-item">
                 <div class="col-md-6 service-img order-lg-2">
-                  <img src="{{asset('assets/img/p&m/demo1/service/local-shifting.png')}}" class="img-fluid">
+                  <img src="{{asset('assets/img/p&m/demo1/service/image7.png')}}" class="img-fluid">
                 </div>
                 <div class="col-md-6 service-content order-lg-1">
                   <h5>Local Shifting</h5>
@@ -251,7 +250,7 @@
             <div class="col-lg-6">
               <div class="row service-item">
                 <div class="col-md-6 service-img order-md-2">
-                  <img src="{{asset('assets/img/p&m/demo1/service/warehousing.png')}}" class="img-fluid">
+                  <img src="{{asset('assets/img/p&m/demo1/service/image8.png')}}" class="img-fluid">
                 </div>
                 <div class="col-md-6 service-content order-md-1">
                   <h5>Warehousing</h5>
@@ -615,7 +614,7 @@
   <script src="{{asset('assets/vendor/venobox/venobox.min.js')}}"></script>
   
   <!-- Template Main JS File -->
-  <script src="{{asset('assets/js/main.js')}}"></script>
+  <script src="{{asset('assets/js/p&m/main1.js')}}"></script>
   <script>
     function openNav() {
       document.getElementById("myNav").classList.toggle("menu_width");

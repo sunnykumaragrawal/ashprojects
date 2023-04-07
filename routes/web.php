@@ -14,12 +14,28 @@ use Illuminate\Support\Facades\Route;
 */
 
 Route::get('/', function () {
-    return view('packers.demo1');
+    return view('packers.demos');
+});
+
+Route::get('/packers-movers', function () {
+    return view('packers.demos');
 });
 
 Route::get('/packers-movers/demo1', function () {
     return view('packers.demo1');
-});
+})->name('packer.demo1');
+
+Route::get('/packers-movers/demo2', function () {
+    return view('packers.demo2');
+})->name('packer.demo2');
+
+Route::get('/packers-movers/demo3', function () {
+    return view('packers.demo3');
+})->name('packer.demo3');
+
+Route::get('/packers-movers/demo4', function () {
+    return view('packers.demo4');
+})->name('packer.demo4');
 
 Route::get('/dsunshinepackersandmovers', function () {
     return view('dsunshine');
